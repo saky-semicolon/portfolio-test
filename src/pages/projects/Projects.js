@@ -55,29 +55,26 @@ class Projects extends Component {
 
         {/* Navigation Buttons */}
         <div className="project-navigation">
-          {[
-            "projectcards",
-            "projectcards2",
-            "projectcards3",
-            "projectcards4",
-          ].map((id) => (
-            <button
-              key={id}
-              className="nav-button fancy-button"
-              onClick={() => this.scrollToSection(id)}
-            >
-              {id.replace("projectcards", "Projects ")}{" "}
-              {/* Makes text more readable */}
-            </button>
-          ))}
+          {["AI & ML", "projectcards2", "projectcards3", "projectcards4"].map(
+            (id) => (
+              <button
+                key={id}
+                className="nav-button fancy-button"
+                onClick={() => this.scrollToSection(id)}
+              >
+                {id.replace("projectcards", "Projects ")}{" "}
+                {/* Makes text more readable */}
+              </button>
+            )
+          )}
         </div>
 
         <div className="project-sections">
           {[
             {
-              id: "projectcards",
-              title: "Projectcards",
-              description: "ami tomay valobashi",
+              id: "AI & ML",
+              title: "Artificial Intelligence & Machine Learning",
+              description: "Explore all the AI and ML Projects",
               data: projectcards,
             },
             {

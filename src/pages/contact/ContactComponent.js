@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from "react"; // ✅ Keep this one
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
@@ -8,6 +8,7 @@ import AddressImg from "./AddressImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { contactPageData } from "../../portfolio.js";
+import Chatbot from "./Chatbot"; // ✅ Keep chatbot import
 
 const ContactData = contactPageData.contactSection;
 const addressSection = contactPageData.addressSection;
@@ -43,7 +44,7 @@ class Contact extends Component {
                   <Button
                     text="Drop a mail"
                     newTab={true}
-                    href="mailto:rohankokkula01@gmail.com"
+                    href="mailto:saky.aiu22@gmail.com"
                     theme={theme}
                   />
                 </div>
@@ -75,10 +76,15 @@ class Contact extends Component {
             </div>
           </Fade>
         </div>
+
+        {/* ✅ Add Chatbot Component */}
+        <Chatbot />
+
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>
     );
   }
 }
+
 export default Contact;

@@ -22,20 +22,20 @@ export default function Greeting(props) {
               <h1 className="greeting-sub" style={{ color: theme.grayText }}>
                 I'm <mark data-entity="person">{greeting.sub}</mark>
               </h1>
-              <h1 className="greeting-typewriter" style={{color: theme.blue}}>
+              <h1 className="greeting-typewriter" style={{ color: theme.blue }}>
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString("Data Scientist(NLP)")
+                      .typeString("Data Scientist")
+                      .pauseFor(200)
+                      .deleteAll()
+                      .typeString("AI Researcher")
+                      .pauseFor(200)
+                      .deleteAll()
+                      .typeString("ML Engineer")
                       .pauseFor(200)
                       .deleteAll()
                       .typeString("Web Developer")
-                      .pauseFor(200)
-                      .deleteAll()
-                      .typeString("UI/UX Designer")
-                      .pauseFor(200)
-                      .deleteAll()
-                      .typeString("IT Engineer")
                       .pauseFor(200)
                       .start();
                   }}
@@ -47,14 +47,22 @@ export default function Greeting(props) {
               </h1>
               <span
                 className="greeting-text-span subTitle"
-                style={{ color: theme.text }}>
+                style={{ color: theme.text }}
+              >
                 <div className="entities">
-                  A <mark data-entity="noun">Data Science practitioner</mark>{" "}
-                  who thrives to{" "}
-                  <mark data-entity="verb">leverage Startups</mark> using
-                  AI-based solutions along with{" "}
-                  <mark data-entity="skill">Web Development</mark> and a blend
-                  of <mark data-entity="freelance">UI/UX Designing</mark>
+                  A{" "}
+                  <mark data-entity="noun">Data Science and AI Enthusiast</mark>{" "}
+                  dedicated to{" "}
+                  <mark data-entity="verb">
+                    Developing Machine Learning Solutions
+                  </mark>{" "}
+                  with expertise spanning{" "}
+                  <mark data-entity="skills">
+                    MLOps, LLMOps and Computer Vision
+                  </mark>{" "}
+                  I specialize in Building
+                  <mark data-entity="freelance">AI-driven Applications</mark>and
+                  contribute to Startups and Research.
                 </div>
               </span>
               <CompetitiveSites logos={competitiveSites.competitiveSites} />

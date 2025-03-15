@@ -7,7 +7,6 @@
   margin: 0px auto;
 }
 
-
 .logo_header {
   margin: 3px;
   width: auto;
@@ -32,8 +31,8 @@
   text-decoration: none;
 }
 
-.header li a:active{
-color:pink;
+.header li a:active {
+  color: pink;
 }
 
 .header li a:hover,
@@ -134,6 +133,44 @@ color:pink;
   top: 0;
 }
 
+/* ---------------- NAVIGATION MENU ---------------- */
+
+.header ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header li {
+  margin: 0 15px;
+}
+
+.header li a {
+  display: block;
+  padding: 12px 18px;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect with gradient & shadow */
+.header li a:hover {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  box-shadow: 0px 4px 10px rgba(255, 65, 108, 0.3);
+  transform: translateY(-2px);
+  /* margin: 0px 10px 0px 10px; */
+  margin-top: 12px;
+}
+
+/* Active link color */
+.header li a:active {
+  color: pink;
+}
+
 /* 48em = 768px */
 
 @media (min-width: 48em) {
@@ -157,3 +194,5 @@ color:pink;
     font-size: 12px;
   }
 }
+
+/* --------------------- */

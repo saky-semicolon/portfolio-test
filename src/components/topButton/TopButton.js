@@ -7,14 +7,32 @@ export default function TopButton({ theme }) {
     document.documentElement.scrollTop = 0;
   }
 
+  // function scrollFunction() {
+  //   if (
+  //     document.body.scrollTop > 30 ||
+  //     document.documentElement.scrollTop > 30
+  //   ) {
+  //     document.getElementById("topButton").style.visibility = "visible";
+  //   } else {
+  //     document.getElementById("topButton").style.visibility = "hidden";
+  //   }
+  // }
+
+  // window.onscroll = function () {
+  //   scrollFunction();
+  // };
+
   function scrollFunction() {
+    const topButton = document.getElementById("topButton"); // Get the element
+    if (!topButton) return; // ✅ Prevents error if element doesn't exist
+
     if (
-      document.body.scrollTop > 30 ||
-      document.documentElement.scrollTop > 30
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
     ) {
-      document.getElementById("topButton").style.visibility = "visible";
+      topButton.style.visibility = "visible";
     } else {
-      document.getElementById("topButton").style.visibility = "hidden";
+      topButton.style.visibility = "hidden";
     }
   }
 

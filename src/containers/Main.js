@@ -1,3 +1,5 @@
+// Main.js
+
 import React, { Component } from "react";
 import { Route, Switch, Router } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
@@ -5,10 +7,11 @@ import Splash from "../pages/splash/Splash";
 import Education from "../pages/EduEx/EducationComponent";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
+import PublicationPage from "../pages/publication/PublicationPage"; // ✅ Correct Import
 import { settings } from "../portfolio.js";
 import { createBrowserHistory } from "history";
-
 import ReactGA from "react-ga";
+
 export const history = createBrowserHistory();
 history.listen((location) => {
   ReactGA.pageview(location.pathname);
@@ -57,6 +60,12 @@ export default class Main extends Component {
                   <Projects {...props} theme={this.props.theme} />
                 )}
               />
+              <Route
+                path="/publications" // ✅ Fixed to match the Navbar route
+                render={(props) => (
+                  <PublicationPage {...props} theme={this.props.theme} />
+                )}
+              />
             </Switch>
           </Router>
         </div>
@@ -91,6 +100,12 @@ export default class Main extends Component {
                 path="/projects"
                 render={(props) => (
                   <Projects {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/publications" // ✅ Fixed route consistency
+                render={(props) => (
+                  <PublicationPage {...props} theme={this.props.theme} />
                 )}
               />
             </Switch>

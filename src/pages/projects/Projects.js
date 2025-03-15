@@ -1,17 +1,29 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import Button from "../../components/button/Button";
+// import Button from "../../components/button/Button";
 import Badge from "react-bootstrap/Badge";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import { projectsHeader } from "../../portfolio.js";
-import { projectcards } from "../../portfolio";
+import {
+  projectcards,
+  projectcards2,
+  projectcards3,
+  projectcards4,
+} from "../../portfolio";
 import { CardColumns, Card } from "react-bootstrap";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 
 class Projects extends Component {
+  scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   render() {
     const theme = this.props.theme;
     return (
@@ -40,82 +52,135 @@ class Projects extends Component {
             </div>
           </Fade>
         </div>
-        <div className="repo-cards-div-main">
-          <CardColumns>
-            {projectcards.list.map((proj) => {
-              return (
-                <Card className="h-100">
-                  <Card.Img
-                    variant="top"
-                    src={require(`../../assets/projects/${proj.img_path}`)}
-                  />
-                  <Card.Body>
-                    <Card.Title>
-                      <h2 style={{ lineHeight: "1.5", marginTop: "0" }}>
-                        {proj.title}
-                        <a
-                          style={{ color: theme.text }}
-                          href={proj.link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <i
-                            className={`fas fa-external-link-alt`}
-                            style={{
-                              color: proj.linkcolor,
-                              marginLeft: "10px",
-                            }}
-                          ></i>
-                        </a>
-                        <a
-                          style={{ color: theme.text }}
-                          href={proj.code}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <i
-                            className={`fab fa-github`}
-                            style={{
-                              color: proj.linkcolor,
-                              paddingLeft: "10px",
-                            }}
-                          ></i>
-                        </a>
-                      </h2>
-                    </Card.Title>
-                    <div>
-                      {proj.tags.map((demo2) => {
-                        return (
-                          <Badge
-                            style={{
-                              marginRight: "0.5em",
-                              backgroundColor: demo2.color,
-                            }}
-                          >
-                            {" "}
-                            {demo2.lang}
-                          </Badge>
-                        );
-                      })}
-                    </div>
-                    <div
-                      className="text-center"
-                      style={{ marginTop: "20px" }}
-                    ></div>
-                    <Card.Text>{proj.description}</Card.Text>
-                  </Card.Body>
-                </Card>
-              );
-            })}
-          </CardColumns>
+
+        {/* Navigation Buttons */}
+        <div className="project-navigation">
+          {[
+            "projectcards",
+            "projectcards2",
+            "projectcards3",
+            "projectcards4",
+          ].map((id) => (
+            <button
+              key={id}
+              className="nav-button fancy-button"
+              onClick={() => this.scrollToSection(id)}
+            >
+              {id.replace("projectcards", "Projects ")}{" "}
+              {/* Makes text more readable */}
+            </button>
+          ))}
         </div>
-        <Button
-          text={"More Projects"}
-          className="project-button"
-          href="https://github.com/rohankokkula"
-          newTab={true}
-          theme={theme}
-        />
+
+        <div className="project-sections">
+          {[
+            {
+              id: "projectcards",
+              title: "Projectcards",
+              description: "ami tomay valobashi",
+              data: projectcards,
+            },
+            {
+              id: "projectcards2",
+              title: "Projectcards2",
+              description: "Amar sonar bangla",
+              data: projectcards2,
+            },
+            {
+              id: "projectcards3",
+              title: "Projectcards3",
+              description: "jonmo diyeso tmi mago",
+              data: projectcards3,
+            },
+            {
+              id: "projectcards4",
+              title: "Projectcards4",
+              description: "tai tomay valobashi",
+              data: projectcards4,
+            },
+          ].map((section) => (
+            <div key={section.id} id={section.id} className="project-section">
+              <div className="section-box">
+                <h2>{section.title}</h2>
+                <p>{section.description}</p>
+              </div>
+              <div className="repo-cards-div-main">
+                <CardColumns>
+                  {section.data.list.map((proj) => (
+                    <Card className="h-100" key={proj.title}>
+                      <Card.Img
+                        variant="top"
+                        src={require(`../../assets/projects/${proj.img_path}`)}
+                      />
+                      <Card.Body>
+                        <Card.Title>
+                          <h2 style={{ lineHeight: "1.5", marginTop: "0" }}>
+                            {proj.title}
+                            <a
+                              style={{ color: theme.text }}
+                              href={proj.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <i
+                                className={`fas fa-external-link-alt`}
+                                style={{
+                                  color: proj.linkcolor,
+                                  marginLeft: "10px",
+                                }}
+                              ></i>
+                            </a>
+                            <a
+                              style={{ color: theme.text }}
+                              href={proj.code}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <i
+                                className={`fab fa-github`}
+                                style={{
+                                  color: proj.linkcolor,
+                                  paddingLeft: "10px",
+                                }}
+                              ></i>
+                            </a>
+                          </h2>
+                        </Card.Title>
+                        <div>
+                          {proj.tags.map((demo2, index) => (
+                            <Badge
+                              key={index}
+                              style={{
+                                marginRight: "0.5em",
+                                backgroundColor: demo2.color,
+                              }}
+                            >
+                              {demo2.lang}
+                            </Badge>
+                          ))}
+                        </div>
+                        <Card.Text>{proj.description}</Card.Text>
+                      </Card.Body>
+                    </Card>
+                  ))}
+                </CardColumns>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="more-projects">
+          <button
+            className="more-projects-btn"
+            onClick={() =>
+              window.open("https://github.com/saky-semicolon", "_blank")
+            }
+            aria-label="View more projects on GitHub"
+          >
+            <span>More Projects</span>
+            <i className="fab fa-github"></i> {/* GitHub Icon */}
+          </button>
+        </div>
+
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>

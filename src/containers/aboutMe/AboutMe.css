@@ -1,0 +1,74 @@
+.about-me-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 10%;
+}
+
+.skills-main-div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.skills-image-div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 40%;
+}
+
+.skills-image-div img {
+  max-width: 100%;
+  height: auto;
+}
+
+.skills-text-div {
+  flex: 1;
+  max-width: 55%;
+  text-align: left;
+}
+
+.skills-heading {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.subTitle {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.skills-text {
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .skills-main-div {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .skills-image-div {
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .skills-text-div {
+    max-width: 100%;
+  }
+
+  .skills-heading {
+    font-size: 24px;
+  }
+
+  .subTitle {
+    font-size: 16px;
+  }
+}

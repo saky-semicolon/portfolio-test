@@ -1,9 +1,9 @@
 .raw_logo {
-  height: 305;
-  width: 440;
+  height: 200;
+  width: 350;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 30px) {
   #logo {
     position: absolute;
     top: 50%;

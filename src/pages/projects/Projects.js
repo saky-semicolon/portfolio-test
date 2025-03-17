@@ -55,44 +55,51 @@ class Projects extends Component {
 
         {/* Navigation Buttons */}
         <div className="project-navigation">
-          {["AI & ML", "projectcards2", "projectcards3", "projectcards4"].map(
-            (id) => (
-              <button
-                key={id}
-                className="nav-button fancy-button"
-                onClick={() => this.scrollToSection(id)}
-              >
-                {id.replace("projectcards", "Projects ")}{" "}
-                {/* Makes text more readable */}
-              </button>
-            )
-          )}
+          {[
+            "Artificial Intelligence & Machine Learning",
+            "Deep Learning & Computer Vision",
+            "Software Engineering & Intelligent Systems",
+            "Web Applications",
+          ].map((id) => (
+            <button
+              key={id}
+              className="nav-button fancy-button"
+              onClick={() => this.scrollToSection(id)}
+            >
+              {id.replace("projectcards", "Projects ")}{" "}
+              {/* Makes text more readable */}
+            </button>
+          ))}
         </div>
 
         <div className="project-sections">
           {[
             {
-              id: "AI & ML",
+              id: "Artificial Intelligence & Machine Learning",
               title: "Artificial Intelligence & Machine Learning",
-              description: "Explore all the AI and ML Projects",
+              description:
+                "Empowering intelligent decision-making through predictive analytics, anomaly detection, natural language processing (NLP), and recommendation systems. These solutions are designed to optimize business processes, enhance automation, and extract meaningful insights from complex data.",
               data: projectcards,
             },
             {
-              id: "projectcards2",
-              title: "Projectcards2",
-              description: "Amar sonar bangla",
+              id: "Deep Learning & Computer Vision",
+              title: "Deep Learning & Computer Vision",
+              description:
+                "Building AI-driven visual intelligence systems that enable machines to interpret and analyze images and videos with human-like precision. From medical imaging to object detection, these projects incorporate convolutional neural networks (CNNs), segmentation models, and advanced feature extraction techniques to solve real-world challenges.",
               data: projectcards2,
             },
             {
-              id: "projectcards3",
-              title: "Projectcards3",
-              description: "jonmo diyeso tmi mago",
+              id: "Software Engineering & Intelligent Systems",
+              title: "Software Engineering & Intelligent Systems",
+              description:
+                "Bridging the gap between traditional software development and AI-powered automation. These projects focus on intelligent automation, business optimization, simulation modeling, and scalable system architectures to build robust and efficient software solutions.",
               data: projectcards3,
             },
             {
-              id: "projectcards4",
-              title: "Projectcards4",
-              description: "tai tomay valobashi",
+              id: "Web Applications",
+              title: "Web Applications",
+              description:
+                "Crafting dynamic, responsive, and user-friendly web applications with a focus on seamless functionality and exceptional user experience. This includes building interactive dashboards, automation tools, real-time analytics platforms, and scalable web solutions that enhance accessibility and efficiency across various industries.",
               data: projectcards4,
             },
           ].map((section) => (

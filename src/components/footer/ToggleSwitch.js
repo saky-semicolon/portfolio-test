@@ -4,7 +4,7 @@ import { lightTheme } from "../../theme";
 import styled from "styled-components";
 
 export const ToggleDiv = styled.div`
-  margin-top: 40px;
+  margin-top: 0px;
   margin-right: 5px;
   float: right;
   display: flex;

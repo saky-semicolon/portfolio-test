@@ -658,6 +658,7 @@ a.badge-dark.focus {
 
   .project-section-desc {
     font-size: 14px;
+    max-width: 50px;
   }
 }
 

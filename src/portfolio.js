@@ -422,207 +422,6 @@ const skills = {
   ],
 };
 
-// // Projects Page
-// const projectsHeader = {
-//   title: "Projects",
-//   description:
-//     "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
-// };
-
-// //project cards
-// // colors:[primary,secondary,success,danger,warning,info,light,dark,]
-// const projectcards = {
-//   list: [
-//     {
-//       title: "TEATH",
-//       img_path: "project-06.png",
-//       description:
-//         "A WebApp for Extracting Text from Images and applying various thresholding methods with sentiment analysis using TextBlob",
-//       tags: [
-//         {
-//           lang: "python",
-//           color: "#004782",
-//         },
-//         {
-//           lang: "TextBlob",
-//           color: "#820032",
-//         },
-//         {
-//           lang: "OpenCV",
-//           color: "#00a100",
-//         },
-//         {
-//           lang: "Streamlit",
-//           color: "#ff4b4b",
-//         },
-//         {
-//           lang: "Heroku",
-//           color: "#3c0095",
-//         },
-//       ],
-//       link: "https://teath.herokuapp.com ",
-//       code: "https://github.com/rohankokkula/TEATH",
-//       linkcolor: "white",
-//     },
-
-//     {
-//       title: "Voice Gender Detection",
-//       img_path: "voice.gif",
-//       description:
-//         "A streamlit webapp which detects user's gender and emotion based on realtime audio input.",
-//       tags: [
-//         {
-//           lang: "ongoing",
-//           color: "red",
-//         },
-//         {
-//           lang: "python",
-//           color: "#004782",
-//         },
-//         {
-//           lang: "matplotlib",
-//           color: "#c47206",
-//         },
-//         {
-//           lang: "tensorflow",
-//           color: "#4257f5",
-//         },
-//         {
-//           lang: "Streamlit",
-//           color: "#ff4b4b",
-//         },
-//       ],
-//       link: "",
-//       code: "",
-//       linkcolor: "white",
-//     },
-//     {
-//       title: "NeuralViz",
-//       img_path: "neural.gif",
-//       description:
-//         "A webapp to visualize Neural Networks based on no. of layers and neurons, calculate Loss and understand math behind Back Propagation algo.",
-//       tags: [
-//         {
-//           lang: "python",
-//           color: "#004782",
-//         },
-//         {
-//           lang: "numpy",
-//           color: "#8700b0",
-//         },
-//         {
-//           lang: "matplotlib",
-//           color: "#c47206",
-//         },
-//         {
-//           lang: "Streamlit",
-//           color: "#ff4b4b",
-//         },
-//         {
-//           lang: "Heroku",
-//           color: "#3c0095",
-//         },
-//       ],
-//       link: "https://neuralviz.herokuapp.com/",
-//       code: "https://github.com/rohankokkula/neuralviz",
-//       linkcolor: "white",
-//     },
-//     {
-//       title: "Semantic Search APP",
-//       img_path: "project-03.png",
-//       description:
-//         "Demo of OpenAI's GPT-3 model on Semantic search using streamlit.",
-//       tags: [
-//         {
-//           lang: "ongoing",
-//           color: "red",
-//         },
-//         {
-//           lang: "Streamlit",
-//           color: "#ff4b4b",
-//         },
-//       ],
-//       link: "",
-//       code: "",
-//       linkcolor: "white",
-//     },
-//     {
-//       title: "Youtube Thumbnail Generator & AutoUploader",
-//       img_path: "project-02.png",
-//       description:
-//         "A python streamlit webapp to automate generating & uploading youtube thumbnails using Youtube v3 API",
-//       tags: [
-//         {
-//           lang: "internal project",
-//           color: "red",
-//         },
-//         {
-//           lang: "youtube v3 api",
-//           color: "red",
-//         },
-//       ],
-//       link: "",
-//       code: "",
-//       linkcolor: "white",
-//     },
-
-//     {
-//       title: "Newsearcher",
-//       img_path: "news.gif",
-//       description:
-//         "Enter your search keyword and get a summary of news weblinks with images without actually opening the links.",
-//       tags: [
-//         {
-//           lang: "python",
-//           color: "#004782",
-//         },
-//         {
-//           lang: "newspaper3k",
-//           color: "#303030",
-//         },
-//         {
-//           lang: "Streamlit",
-//           color: "#ff4b4b",
-//         },
-//         {
-//           lang: "nltk",
-//           color: "#051c61",
-//         },
-//       ],
-//       link: "https://newsearcher.herokuapp.com/",
-//       code: "https://github.com/rohankokkula/Newsearcher",
-//       linkcolor: "white",
-//     },
-//     {
-//       title: "ActiWeight",
-//       img_path: "acti.gif",
-//       description:
-//         "ActiWeight is an Interactive Visualizer for understanding intuition behind 10 Activation Functions used in Neural Networks.",
-//       tags: [
-//         {
-//           lang: "python",
-//           color: "#004782",
-//         },
-//         {
-//           lang: "matplotlib",
-//           color: "#c47206",
-//         },
-//         {
-//           lang: "Streamlit",
-//           color: "#ff4b4b",
-//         },
-//         {
-//           lang: "Heroku",
-//           color: "#3c0095",
-//         },
-//       ],
-//       link: "https://www.youtube.com/watch?v=2vk9lQuX_1Q",
-//       code: "https://github.com/rohankokkula/Actiweight",
-//       linkcolor: "white",
-//     },
-//   ],
-// };
-
 // Projects Page
 const projectsHeader = {
   title: "Projects",
@@ -635,92 +434,82 @@ const projectsHeader = {
 const projectcards = {
   list: [
     {
-      title: "🤖 Machine Learning & AI",
-      img_path: "ml-ai.png",
+      title: "🔍 Zindi African Credit Scoring Challenge",
+      img_path: "credittt.png",
       description:
-        "Developing intelligent models for data-driven decision-making, predictive analytics, and automation.",
+        "Predicting loan default probabilities using ML with feature engineering and model optimization.",
       tags: [
         {
-          lang: "python",
-          color: "#004782",
-        },
-        {
-          lang: "TextBlob",
+          lang: "📊 Scikit-Learn",
           color: "#820032",
         },
         {
-          lang: "OpenCV",
+          lang: "📈 XGBoost",
           color: "#00a100",
         },
         {
-          lang: "Streamlit",
+          lang: "⚙️ Feature Engineering",
           color: "#ff4b4b",
         },
         {
-          lang: "Heroku",
+          lang: "💰 Financial Modeling",
           color: "#3c0095",
         },
       ],
-      link: "https://teath.herokuapp.com ",
-      code: "https://github.com/rohankokkula/TEATH",
+      link:
+        "https://zindi.africa/users/saky-semicolon/competitions/certificate",
+      code:
+        "https://github.com/saky-semicolon/Zindi_African-Credit-Scoring-Challenge",
       linkcolor: "white",
     },
 
     {
-      title: "Voice Gender Detection",
-      img_path: "voice.gif",
+      title: "💳 Credit Scoring Model",
+      img_path: "crescore.webp",
       description:
-        "A streamlit webapp which detects user's gender and emotion based on realtime audio input.",
+        "Developing a model to predict creditworthiness based on financial data.",
       tags: [
         {
-          lang: "ongoing",
-          color: "red",
-        },
-        {
-          lang: "python",
+          lang: "📊 Classification Algorithms",
           color: "#004782",
         },
         {
-          lang: "matplotlib",
+          lang: "🧼 Data Preprocessing",
           color: "#c47206",
         },
         {
-          lang: "tensorflow",
+          lang: "🤖 Machine Learning",
           color: "#4257f5",
         },
         {
-          lang: "Streamlit",
+          lang: "💰 Financial Analytics",
           color: "#ff4b4b",
         },
       ],
       link: "",
-      code: "",
+      code: "https://github.com/saky-semicolon/Credit-Scoring-Model",
       linkcolor: "white",
     },
     {
-      title: "Deep Learning & Computer Vision",
-      img_path: "neural.gif",
+      title: "🧠 Topic Modeling on Mental Health Related Tweets",
+      img_path: "topics.png",
       description:
-        "A webapp to visualize Neural Networks based on no. of layers and neurons, calculate Loss and understand math behind Back Propagation algo.",
+        "Using NLP techniques (LDA, BERTopic) for sentiment analysis and trend identification.",
       tags: [
         {
-          lang: "python",
-          color: "#004782",
-        },
-        {
-          lang: "numpy",
+          lang: "💬 NLP",
           color: "#8700b0",
         },
         {
-          lang: "matplotlib",
+          lang: "📚 LDA",
           color: "#c47206",
         },
         {
-          lang: "Streamlit",
+          lang: "📊 BERTopic",
           color: "#ff4b4b",
         },
         {
-          lang: "Heroku",
+          lang: "📝 Sentiment Analysis",
           color: "#3c0095",
         },
       ],
@@ -729,64 +518,79 @@ const projectcards = {
       linkcolor: "white",
     },
     {
-      title: "Semantic Search APP",
-      img_path: "project-03.png",
+      title: "🔐 Anomaly Detection in Credit Card Fraud",
+      img_path: "credit fraud.png",
       description:
-        "Demo of OpenAI's GPT-3 model on Semantic search using streamlit.",
+        "Comparative analysis of Autoencoder, Isolation Forest, and One-Class SVM for fraud detection.",
       tags: [
         {
-          lang: "ongoing",
-          color: "red",
-        },
-        {
-          lang: "Streamlit",
+          lang: "📉 Autoencoder",
           color: "#ff4b4b",
         },
-      ],
-      link: "",
-      code: "",
-      linkcolor: "white",
-    },
-    {
-      title: "Youtube Thumbnail Generator & AutoUploader",
-      img_path: "project-02.png",
-      description:
-        "A python streamlit webapp to automate generating & uploading youtube thumbnails using Youtube v3 API",
-      tags: [
         {
-          lang: "internal project",
-          color: "red",
+          lang: "🌲 Isolation Forest",
+          color: "#c47206",
         },
         {
-          lang: "youtube v3 api",
-          color: "red",
+          lang: "🚨 One-Class SVM",
+          color: "#ff4b4b",
+        },
+        {
+          lang: "💳 Fraud Detection",
+          color: "#3c0095",
         },
       ],
       link: "",
       code: "",
       linkcolor: "white",
     },
-
     {
-      title: "Newsearcher",
-      img_path: "news.gif",
+      title: "🎓 Placement Prediction using Machine Learning",
+      img_path: "placementt.png",
       description:
-        "Enter your search keyword and get a summary of news weblinks with images without actually opening the links.",
+        "Predicting student placement outcomes based on academic and extracurricular data.",
       tags: [
         {
-          lang: "python",
+          lang: "📊 Data Mining",
+          color: "#8700b0",
+        },
+        {
+          lang: "⚡ Feature Engineering",
+          color: "#c47206",
+        },
+        {
+          lang: "📈 Logistic Regression",
+          color: "#ff4b4b",
+        },
+        {
+          lang: "🌳 Decision Trees",
+          color: "#3c0095",
+        },
+      ],
+      link: "",
+      code: "",
+      linkcolor: "white",
+    },
+    {
+      title: "🌍 Cross-Lingual Transfer Learning System",
+      img_path: "TLL.png",
+      description:
+        "Adaptation of a German dataset for dialogue state tracking using BERT.",
+      tags: [
+        {
+          lang: "🔠 BERT",
           color: "#004782",
         },
         {
-          lang: "newspaper3k",
+          lang: "🔄 Transfer Learning",
           color: "#303030",
         },
         {
-          lang: "Streamlit",
+          lang: "💬 Dialogue State Tracking",
           color: "#ff4b4b",
         },
         {
-          lang: "nltk",
+          lang: "🗣️ NLP",
           color: "#051c61",
         },
       ],
@@ -795,26 +599,72 @@ const projectcards = {
       linkcolor: "white",
     },
     {
-      title: "ActiWeight",
-      img_path: "acti.gif",
+      title: "🎬📽 Hybrid Movie Recommendation System",
+      img_path: "movierec.png",
       description:
-        "ActiWeight is an Interactive Visualizer for understanding intuition behind 10 Activation Functions used in Neural Networks.",
+        "A scalable and efficient recommendation system using deep learning and transfer learning to enhance user experience by predicting viewing preferences.",
       tags: [
         {
-          lang: "python",
+          lang: "🤖 Neural Collaborative Filtering",
           color: "#004782",
         },
         {
-          lang: "matplotlib",
+          lang: "🔢 Matrix Factorization",
           color: "#c47206",
         },
         {
-          lang: "Streamlit",
+          lang: "🧠 Autoencoder",
           color: "#ff4b4b",
         },
         {
-          lang: "Heroku",
+          lang: "🎯 Content-Based Filtering",
           color: "#3c0095",
+        },
+      ],
+      link: "https://www.youtube.com/watch?v=2vk9lQuX_1Q",
+      code: "https://github.com/rohankokkula/Actiweight",
+      linkcolor: "white",
+    },
+    {
+      title: "📊 SVM, Logistic Regression, k-NN, K-Means & PCA",
+      img_path: "ml.webp",
+      description:
+        "A comparative analysis of machine learning models, evaluating their performance on classification and clustering tasks.",
+      tags: [
+        {
+          lang: "📚 Scikit-Learn",
+          color: "#004782",
+        },
+        {
+          lang: "🔍 Data Preprocessing",
+          color: "#c47206",
+        },
+        {
+          lang: "📉 Dimensionality Reduction",
+          color: "#ff4b4b",
+        },
+      ],
+      link: "https://www.youtube.com/watch?v=2vk9lQuX_1Q",
+      code: "https://github.com/rohankokkula/Actiweight",
+      linkcolor: "white",
+    },
+    {
+      title: "📊 Students' Performance Analysis",
+      img_path: "stu.webp",
+      description:
+        "Analyzing student performance through statistical and probabilistic methods, uncovering links between study habits, extracurriculars, and academic success.",
+      tags: [
+        {
+          lang: "📈 Statistical Analysis",
+          color: "#004782",
+        },
+        {
+          lang: "🧮 Probability & Data Science",
+          color: "#c47206",
+        },
+        {
+          lang: "📝 Data Visualization",
+          color: "#ff4b4b",
         },
       ],
       link: "https://www.youtube.com/watch?v=2vk9lQuX_1Q",
@@ -829,30 +679,26 @@ const projectcards = {
 const projectcards2 = {
   list: [
     {
-      title: "🤖 Saky",
-      img_path: "ml-ai.png",
+      title: "🧬🔬 HER2 IHC Image Classification",
+      img_path: "her2.png",
       description:
-        "Developing intelligent models for data-driven decision-making, predictive analytics, and automation.",
+        "Deep learning model for HER2 IHC image classification to assist in breast cancer diagnosis.",
       tags: [
         {
-          lang: "python",
+          lang: "🧠 Deep Learning",
           color: "#004782",
         },
         {
-          lang: "TextBlob",
+          lang: "📸 CNN",
           color: "#820032",
         },
         {
-          lang: "OpenCV",
+          lang: "🏥 Medical Imaging",
           color: "#00a100",
         },
         {
-          lang: "Streamlit",
+          lang: "🔬 Histopathology",
           color: "#ff4b4b",
-        },
-        {
-          lang: "Heroku",
-          color: "#3c0095",
         },
       ],
       link: "https://teath.herokuapp.com ",
@@ -861,30 +707,22 @@ const projectcards2 = {
     },
 
     {
-      title: "Voice Gender Detection",
-      img_path: "voice.gif",
+      title: "🧠🎗 Multimodal Brain Tumor Segmentation",
+      img_path: "brain.png",
       description:
-        "A streamlit webapp which detects user's gender and emotion based on realtime audio input.",
+        "Segmentation of brain tumors from multimodal MRI scans using U-Net architecture.",
       tags: [
         {
-          lang: "ongoing",
-          color: "red",
-        },
-        {
-          lang: "python",
+          lang: "🏥 Medical Imaging",
           color: "#004782",
         },
         {
-          lang: "matplotlib",
+          lang: "🔍 U-Net",
           color: "#c47206",
         },
         {
-          lang: "tensorflow",
+          lang: "🖼 Image Segmentation",
           color: "#4257f5",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
         },
       ],
       link: "",
@@ -892,30 +730,26 @@ const projectcards2 = {
       linkcolor: "white",
     },
     {
-      title: "Deep Learning & Computer Vision",
-      img_path: "neural.gif",
+      title: "👁️‍🗨️🩺 Retinal Layer Segmentation",
+      img_path: "retinaa.png",
       description:
-        "A webapp to visualize Neural Networks based on no. of layers and neurons, calculate Loss and understand math behind Back Propagation algo.",
+        "Automated segmentation of retinal layers from OCT images for ophthalmology diagnostics.",
       tags: [
         {
-          lang: "python",
+          lang: "🏥 Medical Imaging",
           color: "#004782",
         },
         {
-          lang: "numpy",
+          lang: "🔬 OCT Analysis",
           color: "#8700b0",
         },
         {
-          lang: "matplotlib",
+          lang: "📸 Image Processing",
           color: "#c47206",
         },
         {
-          lang: "Streamlit",
+          lang: "🖼️ SegNet",
           color: "#ff4b4b",
-        },
-        {
-          lang: "Heroku",
-          color: "#3c0095",
         },
       ],
       link: "https://neuralviz.herokuapp.com/",
@@ -923,17 +757,17 @@ const projectcards2 = {
       linkcolor: "white",
     },
     {
-      title: "Semantic Search APP",
-      img_path: "project-03.png",
+      title: "🫁📷 Pneumonia Detection using CNN & EfficientNet",
+      img_path: "pneumonia.png",
       description:
-        "Demo of OpenAI's GPT-3 model on Semantic search using streamlit.",
+        "Pneumonia detection from chest X-rays using CNNs and EfficientNet models.",
       tags: [
         {
-          lang: "ongoing",
+          lang: "🔬 EfficientNet",
           color: "red",
         },
         {
-          lang: "Streamlit",
+          lang: "💡 Transfer Learnin",
           color: "#ff4b4b",
         },
       ],
@@ -942,17 +776,17 @@ const projectcards2 = {
       linkcolor: "white",
     },
     {
-      title: "Youtube Thumbnail Generator & AutoUploader",
-      img_path: "project-02.png",
+      title: "✍️🔡 Handwritten Character Recognition",
+      img_path: "charr.png",
       description:
-        "A python streamlit webapp to automate generating & uploading youtube thumbnails using Youtube v3 API",
+        "Deep learning-based handwritten character recognition for OCR applications.",
       tags: [
         {
-          lang: "internal project",
+          lang: "📖 OCR",
           color: "red",
         },
         {
-          lang: "youtube v3 api",
+          lang: "🖍 OpenCV",
           color: "red",
         },
       ],
@@ -962,25 +796,25 @@ const projectcards2 = {
     },
 
     {
-      title: "Newsearcher",
-      img_path: "news.gif",
+      title: "🖐️📚 Hand-Recognition Based Smart Board Model",
+      img_path: "hand.png",
       description:
-        "Enter your search keyword and get a summary of news weblinks with images without actually opening the links.",
+        "Smart board model recognizing hand gestures for interactive learning.",
       tags: [
         {
-          lang: "python",
+          lang: "🔹 🖐 Hand Recognition",
           color: "#004782",
         },
         {
-          lang: "newspaper3k",
+          lang: "🎨 Computer Vision",
           color: "#303030",
         },
         {
-          lang: "Streamlit",
+          lang: "💡 Interactive System",
           color: "#ff4b4b",
         },
         {
-          lang: "nltk",
+          lang: "🖍 OpenCV",
           color: "#051c61",
         },
       ],
@@ -989,26 +823,18 @@ const projectcards2 = {
       linkcolor: "white",
     },
     {
-      title: "ActiWeight",
-      img_path: "acti.gif",
+      title: "💊⚕️ Drug-Drug Interaction Prediction (DDI Pred)",
+      img_path: "ddi.avif",
       description:
-        "ActiWeight is an Interactive Visualizer for understanding intuition behind 10 Activation Functions used in Neural Networks.",
+        "Machine learning model for predicting drug-drug interactions in pharmaceuticals.",
       tags: [
         {
-          lang: "python",
+          lang: "🔬 Bioinformatics",
           color: "#004782",
         },
         {
-          lang: "matplotlib",
+          lang: "💊 Drug Interaction",
           color: "#c47206",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
-        },
-        {
-          lang: "Heroku",
-          color: "#3c0095",
         },
       ],
       link: "https://www.youtube.com/watch?v=2vk9lQuX_1Q",
@@ -1023,30 +849,26 @@ const projectcards2 = {
 const projectcards3 = {
   list: [
     {
-      title: "🤖 Saky",
-      img_path: "ml-ai.png",
+      title: "🏥 Kedah Hospital Management System",
+      img_path: "hmsss.png",
       description:
-        "Developing intelligent models for data-driven decision-making, predictive analytics, and automation.",
+        "A system designed to streamline patient records, appointment scheduling, and staff management using a robust database system. ",
       tags: [
         {
-          lang: "python",
+          lang: "🗄 SQL",
           color: "#004782",
         },
         {
-          lang: "TextBlob",
+          lang: "🏥 Healthcare System",
           color: "#820032",
         },
         {
-          lang: "OpenCV",
+          lang: "💾 Database Management",
           color: "#00a100",
         },
         {
-          lang: "Streamlit",
+          lang: "🖥 Web Application",
           color: "#ff4b4b",
-        },
-        {
-          lang: "Heroku",
-          color: "#3c0095",
         },
       ],
       link: "https://teath.herokuapp.com ",
@@ -1055,30 +877,22 @@ const projectcards3 = {
     },
 
     {
-      title: "Voice Gender Detection",
-      img_path: "voice.gif",
+      title: "Project Baling",
+      img_path: "baling.png",
       description:
-        "A streamlit webapp which detects user's gender and emotion based on realtime audio input.",
+        "A dynamic website highlighting ongoing projects by AIU in Baling, Kedah, Malaysia, providing insights into developmental initiatives and progress.",
       tags: [
         {
-          lang: "ongoing",
+          lang: "🌐 Website Development",
           color: "red",
         },
         {
-          lang: "python",
+          lang: "🏗 Community Projects",
           color: "#004782",
         },
         {
-          lang: "matplotlib",
-          color: "#c47206",
-        },
-        {
-          lang: "tensorflow",
+          lang: "📌 Local Development",
           color: "#4257f5",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
         },
       ],
       link: "",
@@ -1086,10 +900,10 @@ const projectcards3 = {
       linkcolor: "white",
     },
     {
-      title: "Deep Learning & Computer Vision",
-      img_path: "neural.gif",
+      title: "📚 Better World Web Project",
+      img_path: "bw.png",
       description:
-        "A webapp to visualize Neural Networks based on no. of layers and neurons, calculate Loss and understand math behind Back Propagation algo.",
+        "An interactive e-learning platform that integrates education and gamification to enhance user engagement and knowledge retention.",
       tags: [
         {
           lang: "python",
@@ -1117,17 +931,17 @@ const projectcards3 = {
       linkcolor: "white",
     },
     {
-      title: "Semantic Search APP",
-      img_path: "project-03.png",
+      title: "🎮 Apps and Games Collection",
+      img_path: "apps.png",
       description:
-        "Demo of OpenAI's GPT-3 model on Semantic search using streamlit.",
+        "A repository featuring a variety of interactive applications and games designed for entertainment and productivity.",
       tags: [
         {
-          lang: "ongoing",
+          lang: "🕹 Game Development",
           color: "red",
         },
         {
-          lang: "Streamlit",
+          lang: "📱 Mobile Apps",
           color: "#ff4b4b",
         },
       ],
@@ -1136,17 +950,21 @@ const projectcards3 = {
       linkcolor: "white",
     },
     {
-      title: "Youtube Thumbnail Generator & AutoUploader",
-      img_path: "project-02.png",
+      title: "Bank Queue Simulation",
+      img_path: "bankkk(1).png",
       description:
-        "A python streamlit webapp to automate generating & uploading youtube thumbnails using Youtube v3 API",
+        "Simulating real-world bank queue operations using Java for service optimization.",
       tags: [
         {
-          lang: "internal project",
+          lang: "☕ Java",
           color: "red",
         },
         {
-          lang: "youtube v3 api",
+          lang: "🔄 Queue Simulation",
+          color: "red",
+        },
+        {
+          lang: "🏗 DSA",
           color: "red",
         },
       ],
@@ -1156,7 +974,7 @@ const projectcards3 = {
     },
 
     {
-      title: "Newsearcher",
+      title: "KD Academy",
       img_path: "news.gif",
       description:
         "Enter your search keyword and get a summary of news weblinks with images without actually opening the links.",
@@ -1183,7 +1001,7 @@ const projectcards3 = {
       linkcolor: "white",
     },
     {
-      title: "ActiWeight",
+      title: "Portfolio",
       img_path: "acti.gif",
       description:
         "ActiWeight is an Interactive Visualizer for understanding intuition behind 10 Activation Functions used in Neural Networks.",

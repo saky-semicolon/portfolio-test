@@ -13,8 +13,10 @@ export default function Footer(props) {
           {greeting.sub}
           <br></br>
           <div class="pages">
-            <a href="https://">Home</a> | <a href="https://">About</a> |{" "}
-            <a href="https://">Projects</a> | <a href="https://">Contact</a>
+            <a href="https://saky-semicolon.netlify.app/home">Home</a> |{" "}
+            <a href="https://saky-semicolon.netlify.app/education">Education</a>{" "}
+            | <a href="https://saky-semicolon.netlify.app/projects">Projects</a>{" "}
+            | <a href="https://saky-semicolon.netlify.app/contact">Contact</a>
           </div>
           <div class="footer-icons">
             <a href="https://github.com/saky-semicolon">
@@ -25,11 +27,11 @@ export default function Footer(props) {
               <i class="fa-brands fa-twitter"></i>
             </a>{" "}
             |{" "}
-            <a href="https://www.linkedin.com/in/YOUR-LINK">
+            <a href="https://www.linkedin.com/in/saky-semicolon/">
               <i class="fa-brands fa-linkedin"></i>
             </a>{" "}
             |{" "}
-            <a href="https://scholar.google.com/citations?user=YOUR-ID">
+            <a href="https://scholar.google.com/citations?user=1mo3UhMAAAAJ&hl=en">
               <i class="fa-solid fa-graduation-cap"></i>
             </a>
           </div>

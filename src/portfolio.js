@@ -486,7 +486,7 @@ const projectcards = {
           color: "#ff4b4b",
         },
       ],
-      link: "",
+      link: "https://github.com/saky-semicolon/Credit-Scoring-Model",
       code: "https://github.com/saky-semicolon/Credit-Scoring-Model",
       linkcolor: "white",
     },
@@ -513,8 +513,10 @@ const projectcards = {
           color: "#3c0095",
         },
       ],
-      link: "https://neuralviz.herokuapp.com/",
-      code: "https://github.com/rohankokkula/neuralviz",
+      link:
+        "https://github.com/saky-semicolon/Topic-Modeling-on-Mental-Health-Related-Tweets",
+      code:
+        "https://github.com/saky-semicolon/Topic-Modeling-on-Mental-Health-Related-Tweets",
       linkcolor: "white",
     },
     {
@@ -540,8 +542,10 @@ const projectcards = {
           color: "#3c0095",
         },
       ],
-      link: "",
-      code: "",
+      link:
+        "https://github.com/saky-semicolon/Anomaly-Detection-in-Credit-Card-Fraud",
+      code:
+        "https://github.com/saky-semicolon/Anomaly-Detection-in-Credit-Card-Fraud",
       linkcolor: "white",
     },
     {
@@ -567,8 +571,10 @@ const projectcards = {
           color: "#3c0095",
         },
       ],
-      link: "",
-      code: "",
+      link:
+        "https://github.com/saky-semicolon/Placement-Prediction-using-Machine-Learning",
+      code:
+        "https://github.com/saky-semicolon/Placement-Prediction-using-Machine-Learning",
       linkcolor: "white",
     },
     {
@@ -594,37 +600,13 @@ const projectcards = {
           color: "#051c61",
         },
       ],
-      link: "https://newsearcher.herokuapp.com/",
-      code: "https://github.com/rohankokkula/Newsearcher",
+      link:
+        "https://github.com/saky-semicolon/Cross-Lingual-Transfer-Learning-System",
+      code:
+        "https://github.com/saky-semicolon/Cross-Lingual-Transfer-Learning-System",
       linkcolor: "white",
     },
-    {
-      title: "🎬📽 Hybrid Movie Recommendation System",
-      img_path: "movierec.png",
-      description:
-        "A scalable and efficient recommendation system using deep learning and transfer learning to enhance user experience by predicting viewing preferences.",
-      tags: [
-        {
-          lang: "🤖 Neural Collaborative Filtering",
-          color: "#004782",
-        },
-        {
-          lang: "🔢 Matrix Factorization",
-          color: "#c47206",
-        },
-        {
-          lang: "🧠 Autoencoder",
-          color: "#ff4b4b",
-        },
-        {
-          lang: "🎯 Content-Based Filtering",
-          color: "#3c0095",
-        },
-      ],
-      link: "https://www.youtube.com/watch?v=2vk9lQuX_1Q",
-      code: "https://github.com/rohankokkula/Actiweight",
-      linkcolor: "white",
-    },
+
     {
       title: "📊 SVM, Logistic Regression, k-NN, K-Means & PCA",
       img_path: "ml.webp",
@@ -644,8 +626,35 @@ const projectcards = {
           color: "#ff4b4b",
         },
       ],
-      link: "https://www.youtube.com/watch?v=2vk9lQuX_1Q",
-      code: "https://github.com/rohankokkula/Actiweight",
+      link:
+        "https://github.com/saky-semicolon/SVM-Logistic-Regression-k-NN-K-Means-Clustering-and-PCA",
+      code:
+        "https://github.com/saky-semicolon/SVM-Logistic-Regression-k-NN-K-Means-Clustering-and-PCA",
+      linkcolor: "white",
+    },
+    {
+      title: "🚢 Titanic Survival Analysis using R",
+      img_path: "titanic.png",
+      description:
+        "Analyzing survival rates using statistical techniques, data preprocessing, and visualizations in R.",
+      tags: [
+        {
+          lang: "🖥 R Programming",
+          color: "#004782",
+        },
+        {
+          lang: "📉 Data Visualization",
+          color: "#c47206",
+        },
+        {
+          lang: "📊 Statistical Analysis",
+          color: "#ff4b4b",
+        },
+      ],
+      link:
+        "https://github.com/saky-semicolon/Titanic-Survival-Analysis-using-R",
+      code:
+        "https://github.com/saky-semicolon/Titanic-Survival-Analysis-using-R",
       linkcolor: "white",
     },
     {
@@ -667,8 +676,10 @@ const projectcards = {
           color: "#ff4b4b",
         },
       ],
-      link: "https://www.youtube.com/watch?v=2vk9lQuX_1Q",
-      code: "https://github.com/rohankokkula/Actiweight",
+      link:
+        "https://github.com/saky-semicolon/Students-Performance_A-Journey-in-Statistics-and-Probability_A-Memory-to-Treasure/blob/635de66fa120fb4f6a992e8c0d0cfe77b55a8cf6/Students%20Performance-%20Statistics%20Magazine.pdf",
+      code:
+        "https://github.com/saky-semicolon/Students-Performance_A-Journey-in-Statistics-and-Probability_A-Memory-to-Treasure",
       linkcolor: "white",
     },
   ],
@@ -701,8 +712,8 @@ const projectcards2 = {
           color: "#ff4b4b",
         },
       ],
-      link: "https://teath.herokuapp.com ",
-      code: "https://github.com/rohankokkula/TEATH",
+      link: "https://github.com/saky-semicolon/HER2-IHC-Image-Classification",
+      code: "https://github.com/saky-semicolon/HER2-IHC-Image-Classification",
       linkcolor: "white",
     },
 
@@ -725,8 +736,10 @@ const projectcards2 = {
           color: "#4257f5",
         },
       ],
-      link: "",
-      code: "",
+      link:
+        "https://github.com/saky-semicolon/Multimodal-Brain-Tumor-Segmentation",
+      code:
+        "https://github.com/saky-semicolon/Multimodal-Brain-Tumor-Segmentation",
       linkcolor: "white",
     },
     {
@@ -752,8 +765,8 @@ const projectcards2 = {
           color: "#ff4b4b",
         },
       ],
-      link: "https://neuralviz.herokuapp.com/",
-      code: "https://github.com/rohankokkula/neuralviz",
+      link: "https://github.com/saky-semicolon/Retinal-Layer-Segmentation",
+      code: "https://github.com/saky-semicolon/Retinal-Layer-Segmentation",
       linkcolor: "white",
     },
     {
@@ -771,8 +784,10 @@ const projectcards2 = {
           color: "#ff4b4b",
         },
       ],
-      link: "",
-      code: "",
+      link:
+        "https://github.com/saky-semicolon/Pneumonia_Detection-CNN-EfficientNet",
+      code:
+        "https://github.com/saky-semicolon/Pneumonia_Detection-CNN-EfficientNet",
       linkcolor: "white",
     },
     {
@@ -818,8 +833,10 @@ const projectcards2 = {
           color: "#051c61",
         },
       ],
-      link: "https://newsearcher.herokuapp.com/",
-      code: "https://github.com/rohankokkula/Newsearcher",
+      link:
+        "https://github.com/saky-semicolon/Handwritten-Character-Recognition",
+      code:
+        "https://github.com/saky-semicolon/Handwritten-Character-Recognition",
       linkcolor: "white",
     },
     {
@@ -837,8 +854,37 @@ const projectcards2 = {
           color: "#c47206",
         },
       ],
-      link: "https://www.youtube.com/watch?v=2vk9lQuX_1Q",
-      code: "https://github.com/rohankokkula/Actiweight",
+      link: "https://github.com/saky-semicolon/ddi_pred",
+      code: "https://github.com/saky-semicolon/ddi_pred",
+      linkcolor: "white",
+    },
+    {
+      title: "🎬📽 Hybrid Movie Recommendation System",
+      img_path: "movierec.png",
+      description:
+        "A scalable and efficient recommendation system using deep learning and transfer learning to enhance user experience by predicting viewing preferences.",
+      tags: [
+        {
+          lang: "🤖 Neural Collaborative Filtering",
+          color: "#004782",
+        },
+        {
+          lang: "🔢 Matrix Factorization",
+          color: "#c47206",
+        },
+        {
+          lang: "🧠 Autoencoder",
+          color: "#ff4b4b",
+        },
+        {
+          lang: "🎯 Content-Based Filtering",
+          color: "#3c0095",
+        },
+      ],
+      link:
+        "https://github.com/saky-semicolon/Hybrid-Movie-Recommendation-System",
+      code:
+        "https://github.com/saky-semicolon/Hybrid-Movie-Recommendation-System",
       linkcolor: "white",
     },
   ],
@@ -871,8 +917,10 @@ const projectcards3 = {
           color: "#ff4b4b",
         },
       ],
-      link: "https://teath.herokuapp.com ",
-      code: "https://github.com/rohankokkula/TEATH",
+      link:
+        "https://github.com/saky-semicolon/Kedah-Hospital-Management-System",
+      code:
+        "https://github.com/saky-semicolon/Kedah-Hospital-Management-System",
       linkcolor: "white",
     },
 
@@ -895,8 +943,8 @@ const projectcards3 = {
           color: "#4257f5",
         },
       ],
-      link: "",
-      code: "",
+      link: "https://baling.netlify.app",
+      code: "https://github.com/saky-semicolon/Project-Baling",
       linkcolor: "white",
     },
     {
@@ -926,8 +974,8 @@ const projectcards3 = {
           color: "#3c0095",
         },
       ],
-      link: "https://neuralviz.herokuapp.com/",
-      code: "https://github.com/rohankokkula/neuralviz",
+      link: "https://github.com/saky-semicolon/Better_World-Web-Project",
+      code: "https://github.com/saky-semicolon/Better_World-Web-Project",
       linkcolor: "white",
     },
     {
@@ -945,8 +993,8 @@ const projectcards3 = {
           color: "#ff4b4b",
         },
       ],
-      link: "",
-      code: "",
+      link: "https://github.com/saky-semicolon/Apps-and-Games",
+      code: "https://github.com/saky-semicolon/Apps-and-Games",
       linkcolor: "white",
     },
     {
@@ -968,63 +1016,55 @@ const projectcards3 = {
           color: "red",
         },
       ],
-      link: "",
-      code: "",
+      link: "https://github.com/saky-semicolon/Bank-Queue-Simulation",
+      code: "https://github.com/saky-semicolon/Bank-Queue-Simulation",
       linkcolor: "white",
     },
 
     {
-      title: "KD Academy",
-      img_path: "news.gif",
+      title: "KD Academy-LMS",
+      img_path: "LMS.png",
       description:
-        "Enter your search keyword and get a summary of news weblinks with images without actually opening the links.",
+        "A Learning Management System designed to enhance online education with course management, student tracking, and interactive learning experiences.",
       tags: [
         {
-          lang: "python",
+          lang: "📚 LMS",
           color: "#004782",
         },
         {
-          lang: "newspaper3k",
+          lang: "🗄️ Database Management",
           color: "#303030",
         },
         {
-          lang: "Streamlit",
-          color: "#ff4b4b",
-        },
-        {
-          lang: "nltk",
+          lang: "🚀 Full-Stack Development",
           color: "#051c61",
         },
       ],
-      link: "https://newsearcher.herokuapp.com/",
-      code: "https://github.com/rohankokkula/Newsearcher",
+      link: "",
+      code: "",
       linkcolor: "white",
     },
     {
-      title: "Portfolio",
-      img_path: "acti.gif",
+      title: "🌐 Personal Portfolio Website",
+      img_path: "portfolio.png",
       description:
-        "ActiWeight is an Interactive Visualizer for understanding intuition behind 10 Activation Functions used in Neural Networks.",
+        "A dynamic and interactive portfolio showcasing projects, research, blogs, and achievements with a sleek, responsive design and seamless user experience.",
       tags: [
         {
-          lang: "python",
+          lang: "🎨 UI/UX Design",
           color: "#004782",
         },
         {
-          lang: "matplotlib",
+          lang: " ⚡ React.js",
           color: "#c47206",
         },
         {
-          lang: "Streamlit",
+          lang: "🌍 Responsive Design",
           color: "#ff4b4b",
         },
-        {
-          lang: "Heroku",
-          color: "#3c0095",
-        },
       ],
-      link: "https://www.youtube.com/watch?v=2vk9lQuX_1Q",
-      code: "https://github.com/rohankokkula/Actiweight",
+      link: "https://saky-semicolon.netlify.app/",
+      code: "https://saky-semicolon.netlify.app/",
       linkcolor: "white",
     },
   ],
@@ -1034,193 +1074,191 @@ const projectcards3 = {
 
 const projectcards4 = {
   list: [
-    {
-      title: "🤖 Seeeee",
-      img_path: "ml-ai.png",
-      description:
-        "Developing intelligent models for data-driven decision-making, predictive analytics, and automation.",
-      tags: [
-        {
-          lang: "python",
-          color: "#004782",
-        },
-        {
-          lang: "TextBlob",
-          color: "#820032",
-        },
-        {
-          lang: "OpenCV",
-          color: "#00a100",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
-        },
-        {
-          lang: "Heroku",
-          color: "#3c0095",
-        },
-      ],
-      link: "https://teath.herokuapp.com ",
-      code: "https://github.com/rohankokkula/TEATH",
-      linkcolor: "white",
-    },
-
-    {
-      title: "Voice Gender Detection",
-      img_path: "voice.gif",
-      description:
-        "A streamlit webapp which detects user's gender and emotion based on realtime audio input.",
-      tags: [
-        {
-          lang: "ongoing",
-          color: "red",
-        },
-        {
-          lang: "python",
-          color: "#004782",
-        },
-        {
-          lang: "matplotlib",
-          color: "#c47206",
-        },
-        {
-          lang: "tensorflow",
-          color: "#4257f5",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
-        },
-      ],
-      link: "",
-      code: "",
-      linkcolor: "white",
-    },
-    {
-      title: "Deep Learning & Computer Vision",
-      img_path: "neural.gif",
-      description:
-        "A webapp to visualize Neural Networks based on no. of layers and neurons, calculate Loss and understand math behind Back Propagation algo.",
-      tags: [
-        {
-          lang: "python",
-          color: "#004782",
-        },
-        {
-          lang: "numpy",
-          color: "#8700b0",
-        },
-        {
-          lang: "matplotlib",
-          color: "#c47206",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
-        },
-        {
-          lang: "Heroku",
-          color: "#3c0095",
-        },
-      ],
-      link: "https://neuralviz.herokuapp.com/",
-      code: "https://github.com/rohankokkula/neuralviz",
-      linkcolor: "white",
-    },
-    {
-      title: "Semantic Search APP",
-      img_path: "project-03.png",
-      description:
-        "Demo of OpenAI's GPT-3 model on Semantic search using streamlit.",
-      tags: [
-        {
-          lang: "ongoing",
-          color: "red",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
-        },
-      ],
-      link: "",
-      code: "",
-      linkcolor: "white",
-    },
-    {
-      title: "Youtube Thumbnail Generator & AutoUploader",
-      img_path: "project-02.png",
-      description:
-        "A python streamlit webapp to automate generating & uploading youtube thumbnails using Youtube v3 API",
-      tags: [
-        {
-          lang: "internal project",
-          color: "red",
-        },
-        {
-          lang: "youtube v3 api",
-          color: "red",
-        },
-      ],
-      link: "",
-      code: "",
-      linkcolor: "white",
-    },
-
-    {
-      title: "Newsearcher",
-      img_path: "news.gif",
-      description:
-        "Enter your search keyword and get a summary of news weblinks with images without actually opening the links.",
-      tags: [
-        {
-          lang: "python",
-          color: "#004782",
-        },
-        {
-          lang: "newspaper3k",
-          color: "#303030",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
-        },
-        {
-          lang: "nltk",
-          color: "#051c61",
-        },
-      ],
-      link: "https://newsearcher.herokuapp.com/",
-      code: "https://github.com/rohankokkula/Newsearcher",
-      linkcolor: "white",
-    },
-    {
-      title: "ActiWeight",
-      img_path: "acti.gif",
-      description:
-        "ActiWeight is an Interactive Visualizer for understanding intuition behind 10 Activation Functions used in Neural Networks.",
-      tags: [
-        {
-          lang: "python",
-          color: "#004782",
-        },
-        {
-          lang: "matplotlib",
-          color: "#c47206",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
-        },
-        {
-          lang: "Heroku",
-          color: "#3c0095",
-        },
-      ],
-      link: "https://www.youtube.com/watch?v=2vk9lQuX_1Q",
-      code: "https://github.com/rohankokkula/Actiweight",
-      linkcolor: "white",
-    },
+    // {
+    //   title: "🤖 Seeeee",
+    //   img_path: "ml-ai.png",
+    //   description:
+    //     "Developing intelligent models for data-driven decision-making, predictive analytics, and automation.",
+    //   tags: [
+    //     {
+    //       lang: "python",
+    //       color: "#004782",
+    //     },
+    //     {
+    //       lang: "TextBlob",
+    //       color: "#820032",
+    //     },
+    //     {
+    //       lang: "OpenCV",
+    //       color: "#00a100",
+    //     },
+    //     {
+    //       lang: "Streamlit",
+    //       color: "#ff4b4b",
+    //     },
+    //     {
+    //       lang: "Heroku",
+    //       color: "#3c0095",
+    //     },
+    //   ],
+    //   link: "https://teath.herokuapp.com ",
+    //   code: "https://github.com/rohankokkula/TEATH",
+    //   linkcolor: "white",
+    // },
+    // {
+    //   title: "Voice Gender Detection",
+    //   img_path: "voice.gif",
+    //   description:
+    //     "A streamlit webapp which detects user's gender and emotion based on realtime audio input.",
+    //   tags: [
+    //     {
+    //       lang: "ongoing",
+    //       color: "red",
+    //     },
+    //     {
+    //       lang: "python",
+    //       color: "#004782",
+    //     },
+    //     {
+    //       lang: "matplotlib",
+    //       color: "#c47206",
+    //     },
+    //     {
+    //       lang: "tensorflow",
+    //       color: "#4257f5",
+    //     },
+    //     {
+    //       lang: "Streamlit",
+    //       color: "#ff4b4b",
+    //     },
+    //   ],
+    //   link: "",
+    //   code: "",
+    //   linkcolor: "white",
+    // },
+    // {
+    //   title: "Deep Learning & Computer Vision",
+    //   img_path: "neural.gif",
+    //   description:
+    //     "A webapp to visualize Neural Networks based on no. of layers and neurons, calculate Loss and understand math behind Back Propagation algo.",
+    //   tags: [
+    //     {
+    //       lang: "python",
+    //       color: "#004782",
+    //     },
+    //     {
+    //       lang: "numpy",
+    //       color: "#8700b0",
+    //     },
+    //     {
+    //       lang: "matplotlib",
+    //       color: "#c47206",
+    //     },
+    //     {
+    //       lang: "Streamlit",
+    //       color: "#ff4b4b",
+    //     },
+    //     {
+    //       lang: "Heroku",
+    //       color: "#3c0095",
+    //     },
+    //   ],
+    //   link: "https://neuralviz.herokuapp.com/",
+    //   code: "https://github.com/rohankokkula/neuralviz",
+    //   linkcolor: "white",
+    // },
+    // {
+    //   title: "Semantic Search APP",
+    //   img_path: "project-03.png",
+    //   description:
+    //     "Demo of OpenAI's GPT-3 model on Semantic search using streamlit.",
+    //   tags: [
+    //     {
+    //       lang: "ongoing",
+    //       color: "red",
+    //     },
+    //     {
+    //       lang: "Streamlit",
+    //       color: "#ff4b4b",
+    //     },
+    //   ],
+    //   link: "",
+    //   code: "",
+    //   linkcolor: "white",
+    // },
+    // {
+    //   title: "Youtube Thumbnail Generator & AutoUploader",
+    //   img_path: "project-02.png",
+    //   description:
+    //     "A python streamlit webapp to automate generating & uploading youtube thumbnails using Youtube v3 API",
+    //   tags: [
+    //     {
+    //       lang: "internal project",
+    //       color: "red",
+    //     },
+    //     {
+    //       lang: "youtube v3 api",
+    //       color: "red",
+    //     },
+    //   ],
+    //   link: "",
+    //   code: "",
+    //   linkcolor: "white",
+    // },
+    // {
+    //   title: "Newsearcher",
+    //   img_path: "news.gif",
+    //   description:
+    //     "Enter your search keyword and get a summary of news weblinks with images without actually opening the links.",
+    //   tags: [
+    //     {
+    //       lang: "python",
+    //       color: "#004782",
+    //     },
+    //     {
+    //       lang: "newspaper3k",
+    //       color: "#303030",
+    //     },
+    //     {
+    //       lang: "Streamlit",
+    //       color: "#ff4b4b",
+    //     },
+    //     {
+    //       lang: "nltk",
+    //       color: "#051c61",
+    //     },
+    //   ],
+    //   link: "https://newsearcher.herokuapp.com/",
+    //   code: "https://github.com/rohankokkula/Newsearcher",
+    //   linkcolor: "white",
+    // },
+    // {
+    //   title: "ActiWeight",
+    //   img_path: "acti.gif",
+    //   description:
+    //     "ActiWeight is an Interactive Visualizer for understanding intuition behind 10 Activation Functions used in Neural Networks.",
+    //   tags: [
+    //     {
+    //       lang: "python",
+    //       color: "#004782",
+    //     },
+    //     {
+    //       lang: "matplotlib",
+    //       color: "#c47206",
+    //     },
+    //     {
+    //       lang: "Streamlit",
+    //       color: "#ff4b4b",
+    //     },
+    //     {
+    //       lang: "Heroku",
+    //       color: "#3c0095",
+    //     },
+    //   ],
+    //   link: "https://www.youtube.com/watch?v=2vk9lQuX_1Q",
+    //   code: "https://github.com/rohankokkula/Actiweight",
+    //   linkcolor: "white",
+    // },
   ],
 };
 

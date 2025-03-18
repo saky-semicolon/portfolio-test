@@ -1564,18 +1564,18 @@ const certifications = {
       logo_path: "onemonth.png",
       certificate_link:
         "https://onemonth.com/certificates/zFgu3r7VFQQMZQMXyefY",
-      alt_name: "Tableau",
+      alt_name: "wordpress",
       color_code: "#000000",
     },
-    {
-      title: "Tableau Consumer",
-      subtitle: "Tableau",
-      logo_path: "tabcon-01.png",
-      certificate_link:
-        "https://www.credly.com/badges/e5befe7b-2eec-486f-b77e-bd2458c18b26/linked_in_profile",
-      alt_name: "Tableau",
-      color_code: "#000000",
-    },
+    // {
+    //   title: "Tableau Consumer",
+    //   subtitle: "Tableau",
+    //   logo_path: "tabcon-01.png",
+    //   certificate_link:
+    //     "https://www.credly.com/badges/e5befe7b-2eec-486f-b77e-bd2458c18b26/linked_in_profile",
+    //   alt_name: "Tableau",
+    //   color_code: "#000000",
+    // },
     {
       title: "SQL (Advanced)",
       subtitle: "HackerRank",
@@ -1593,21 +1593,21 @@ const certifications = {
       color_code: "#000000",
     },
     {
-      title: "Certificate of Merit",
-      subtitle: "Summer Analytics | IIT Guwahati",
-      logo_path: "iitg-01.png",
+      title: "Computer Hardware Basics",
+      subtitle: "Cisco",
+      logo_path: "computerbasic.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "IITG",
+        "https://www.credly.com/badges/0a1f8b35-c998-430c-83a7-f49726be697d/public_url",
+      alt_name: "Cisco",
       color_code: "#000000",
     },
     {
-      title: "Tableau Desktop Qualified Associate",
-      subtitle: "SimpliLearn",
-      logo_path: "simplilearn-01.png",
+      title: "AWS Educate Introduction to Cloud 101",
+      subtitle: "Amazon Web Services",
+      logo_path: "cloud.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Simplilearn",
+      alt_name: "AWS",
       color_code: "#000000",
     },
     {
@@ -1691,7 +1691,15 @@ const certifications = {
       alt_name: "Cisco",
       color_code: "#000000",
     },
-
+    {
+      title: "LFEL1011: OpenAPI Fundamentals",
+      subtitle: "The Linux Foundation",
+      logo_path: "openapi.png",
+      certificate_link:
+        "https://www.credly.com/badges/82540cb5-1b5f-46cd-96da-9311b52b1e99/public_url",
+      alt_name: "Cisco",
+      color_code: "#000000",
+    },
     {
       title: "Deep Learning with TensorFlow",
       subtitle: "Cognitive Class | IBM",
@@ -1703,7 +1711,7 @@ const certifications = {
     },
     {
       title: "AWS Academy Machine Learning Foundations",
-      subtitle: "Amazon Web Services Training and Certification",
+      subtitle: "Amazon Web Services",
       logo_path: "aws.png",
       certificate_link:
         "https://www.credly.com/badges/58ba64cb-04d0-4121-acbd-a9d528bd4de9/print",
@@ -1711,12 +1719,21 @@ const certifications = {
       color_code: "#000000",
     },
     {
-      title: "Tableau Masters",
-      subtitle: "iNeuron.ai",
-      logo_path: "ineuron-01.png",
+      title: "Linux Tutorial",
+      subtitle: "Great Learning",
+      logo_path: "great.png",
       certificate_link:
-        "https://academy.ineuron.ai/certificates/downloads/TB000634.pdf",
-      alt_name: "HackerRank",
+        "https://www.linkedin.com/in/saky-semicolon/details/certifications/",
+      alt_name: "GL",
+      color_code: "#000000",
+    },
+    {
+      title: "OnCampus Program Competitor",
+      subtitle: "Hult Prize Foundation",
+      logo_path: "hutl.png",
+      certificate_link:
+        "https://www.linkedin.com/in/saky-semicolon/details/certifications/",
+      alt_name: "GL",
       color_code: "#000000",
     },
   ],

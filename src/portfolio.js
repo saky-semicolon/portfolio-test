@@ -1325,6 +1325,25 @@ const publicationData = {
       link: "https://doi.org/10.47814/ijssrr.v8i3.2535",
       codeLink: "https://doi.org/10.47814/ijssrr.v8i3.2535",
     },
+    {
+      title:
+        "​Conventional Media Credibility and Current Affairs News: Emergence of Alternative Media in Hasina-Era Bangladesh​",
+      authors:
+        "Jahidul Islam, Dr. Hisham Anand Barbhuiya, Yeasmin Akter, Sakib Rayhan, Farhana Akter, S M Asiful Islam Saky",
+      journal:
+        "International Journal of Research and Innovation in Social Science (IJRISS)",
+      year: 2025,
+      volume: 8,
+      issue: 4,
+      pages: "120-135",
+      publisher:
+        "The Global Institute for Multidisciplinary Knowledge and Responsible Future & The German Union Catalogue of Serials (ZDB)",
+      doi: "https://doi.org/10.47814/ijssrr.v8i4.2571",
+      abstract:
+        "In Hasina-era Bangladesh, the credibility of traditional media had increasingly come into question, especially when it came to current affairs and political news. This research investigates the reasons for mass distrust and the rise of alternative media. Based on in-depth interviews with media professionals, this study found that state censorship, political interference, and a lack of transparency were some of the key reasons behind the collapse of public confidence in traditional media outlets. This study looks at the origins of mass distrust, and the resulting new media. The study, in a series of in-depth interviews with media practitioners, chose to identify some of the reasons behind general mistrust and the growth of new forms of media. It found control by the government over the press and political interference in editorial policy as major stumbling blocks for credibility among common people. Results have shown a marked drift towards social media and independent news channels, perceived to be more credible. This transition of traditional media to new media depicted an increasing demand of the public for accuracy and impartiality in Bangladesh. The study identifies comprehensive media reform as a key requirement to enhance transparency and independence within the media sector-a need also relevant to post-Hasina Bangladesh. Such changes are very important in building public self-confidence and making sure news organizations are free from unjustified political influence. The results will give valuable recommendations for policymakers and news houses on how to build and sustain reputable media arenas in Bangladesh.",
+      link: "https://doi.org/10.47814/ijssrr.v8i4.2571",
+      codeLink: "https://doi.org/10.47814/ijssrr.v8i4.2571",
+    },
 
     // Conference
 
@@ -1344,81 +1363,82 @@ const publicationData = {
   ],
   blogs: [
     {
-      title: "Optimizing Deep Learning Models for Real-World Applications",
+      title: "Run Linux on Windows with WSL: What You Need to Know!",
       author: "S M Asiful Islam Saky",
-      platform: "Medium",
+      platform: "Article | Linkedin",
       year: 2024,
-      link: "https://medium.com/your-blog-link",
+      link:
+        "https://www.linkedin.com/pulse/run-linux-windows-wsl-what-you-need-know-s-m-asiful-islam-saky-8dhzc/?trackingId=BMH9OAnqQOKOoJ32DbnP6w%3D%3D",
       description:
-        "Learn how to optimize deep learning models for deployment, balancing accuracy and efficiency.",
+        "Windows Subsystem for Linux (WSL) lets users run Linux on Windows without a VM. WSL 2 offers full kernel support, enabling better performance and compatibility for developers using Linux tools.",
     },
     {
-      title:
-        "Understanding MLOps: The Bridge Between Model Development and Production",
+      title: "A Comprehensive Comparison of Windows and Ubuntu",
       author: "S M Asiful Islam Saky",
-      platform: "Towards Data Science",
-      year: 2023,
-      link: "https://towardsdatascience.com/your-blog-link",
-      description:
-        "A deep dive into MLOps, covering CI/CD, model monitoring, and automation in ML pipelines.",
-    },
-    {
-      title: "Optimizing Deep Learning Models for Real-World Applications",
-      author: "S M Asiful Islam Saky",
-      platform: "Medium",
+      platform: "Github",
       year: 2024,
-      link: "https://medium.com/your-blog-link",
+      link:
+        "https://github.com/saky-semicolon/Windows-Vs-Ubuntu/blob/main/Windows%20Vs%20Linux_Report.md",
       description:
-        "Learn how to optimize deep learning models for deployment, balancing accuracy and efficiency.",
+        "A comparative analysis of Windows and Ubuntu based on performance, security, usability, cost, and user experiences across various parameters.",
     },
-    {
-      title:
-        "Understanding MLOps: The Bridge Between Model Development and Production",
-      author: "S M Asiful Islam Saky",
-      platform: "Towards Data Science",
-      year: 2023,
-      link: "https://towardsdatascience.com/your-blog-link",
-      description:
-        "A deep dive into MLOps, covering CI/CD, model monitoring, and automation in ML pipelines.",
-    },
-    {
-      title: "Optimizing Deep Learning Models for Real-World Applications",
-      author: "S M Asiful Islam Saky",
-      platform: "Medium",
-      year: 2024,
-      link: "https://medium.com/your-blog-link",
-      description:
-        "Learn how to optimize deep learning models for deployment, balancing accuracy and efficiency.",
-    },
-    {
-      title:
-        "Understanding MLOps: The Bridge Between Model Development and Production",
-      author: "S M Asiful Islam Saky",
-      platform: "Towards Data Science",
-      year: 2023,
-      link: "https://towardsdatascience.com/your-blog-link",
-      description:
-        "A deep dive into MLOps, covering CI/CD, model monitoring, and automation in ML pipelines.",
-    },
-    {
-      title: "Optimizing Deep Learning Models for Real-World Applications",
-      author: "S M Asiful Islam Saky",
-      platform: "Medium",
-      year: 2024,
-      link: "https://medium.com/your-blog-link",
-      description:
-        "Learn how to optimize deep learning models for deployment, balancing accuracy and efficiency.",
-    },
-    {
-      title:
-        "Understanding MLOps: The Bridge Between Model Development and Production",
-      author: "S M Asiful Islam Saky",
-      platform: "Towards Data Science",
-      year: 2023,
-      link: "https://towardsdatascience.com/your-blog-link",
-      description:
-        "A deep dive into MLOps, covering CI/CD, model monitoring, and automation in ML pipelines.",
-    },
+    // {
+    //   title: "Optimizing Deep Learning Models for Real-World Applications",
+    //   author: "S M Asiful Islam Saky",
+    //   platform: "Medium",
+    //   year: 2024,
+    //   link: "https://medium.com/your-blog-link",
+    //   description:
+    //     "Learn how to optimize deep learning models for deployment, balancing accuracy and efficiency.",
+    // },
+    // {
+    //   title:
+    //     "Understanding MLOps: The Bridge Between Model Development and Production",
+    //   author: "S M Asiful Islam Saky",
+    //   platform: "Towards Data Science",
+    //   year: 2023,
+    //   link: "https://towardsdatascience.com/your-blog-link",
+    //   description:
+    //     "A deep dive into MLOps, covering CI/CD, model monitoring, and automation in ML pipelines.",
+    // },
+    // {
+    //   title: "Optimizing Deep Learning Models for Real-World Applications",
+    //   author: "S M Asiful Islam Saky",
+    //   platform: "Medium",
+    //   year: 2024,
+    //   link: "https://medium.com/your-blog-link",
+    //   description:
+    //     "Learn how to optimize deep learning models for deployment, balancing accuracy and efficiency.",
+    // },
+    // {
+    //   title:
+    //     "Understanding MLOps: The Bridge Between Model Development and Production",
+    //   author: "S M Asiful Islam Saky",
+    //   platform: "Towards Data Science",
+    //   year: 2023,
+    //   link: "https://towardsdatascience.com/your-blog-link",
+    //   description:
+    //     "A deep dive into MLOps, covering CI/CD, model monitoring, and automation in ML pipelines.",
+    // },
+    // {
+    //   title: "Optimizing Deep Learning Models for Real-World Applications",
+    //   author: "S M Asiful Islam Saky",
+    //   platform: "Medium",
+    //   year: 2024,
+    //   link: "https://medium.com/your-blog-link",
+    //   description:
+    //     "Learn how to optimize deep learning models for deployment, balancing accuracy and efficiency.",
+    // },
+    // {
+    //   title:
+    //     "Understanding MLOps: The Bridge Between Model Development and Production",
+    //   author: "S M Asiful Islam Saky",
+    //   platform: "Towards Data Science",
+    //   year: 2023,
+    //   link: "https://towardsdatascience.com/your-blog-link",
+    //   description:
+    //     "A deep dive into MLOps, covering CI/CD, model monitoring, and automation in ML pipelines.",
+    // },
     // More blogs...
   ],
 };
@@ -1710,6 +1730,15 @@ const certifications = {
       color_code: "#000000",
     },
     {
+      title: "Computer Vision",
+      subtitle: "Kaggle",
+      logo_path: "kag.png",
+      certificate_link:
+        "https://www.kaggle.com/learn/certification/smasifulislamsaky/computer-vision",
+      alt_name: "Kaggle",
+      color_code: "#000000",
+    },
+    {
       title: "AWS Academy Machine Learning Foundations",
       subtitle: "Amazon Web Services",
       logo_path: "aws.png",
@@ -1723,8 +1752,17 @@ const certifications = {
       subtitle: "Great Learning",
       logo_path: "great.png",
       certificate_link:
-        "https://www.linkedin.com/in/saky-semicolon/details/certifications/",
+        "https://drive.google.com/file/d/12JAIMFIHOzki7Y29mklA4xjdP46i4gTk/view?usp=sharing",
       alt_name: "GL",
+      color_code: "#000000",
+    },
+    {
+      title: "Research Design",
+      subtitle: "Elsevier",
+      logo_path: "els.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1TNr78wMU6M2AC0etRVRwKNhl8vc-2noU/view?usp=sharing",
+      alt_name: "Elsevier",
       color_code: "#000000",
     },
     {

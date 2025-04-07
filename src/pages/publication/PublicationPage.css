@@ -177,7 +177,7 @@
 .publication-card:hover {
   transform: scale(1.03);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  background: linear-gradient(135deg, #2da848, #cf355b);
+  background: linear-gradient(135deg, #0d0e0e, #cf355b);
   transform: scale(1.05);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }

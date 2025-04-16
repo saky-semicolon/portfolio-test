@@ -1345,19 +1345,41 @@ const publicationData = {
       codeLink: "https://doi.org/10.47814/ijssrr.v8i4.2571",
     },
 
+    {
+      title:
+        "Machine Learning in Renewable Energy Forecasting: A Review of Developments, Challenges and Future Prospects​",
+      authors: "Abdullah Al Hadi, Mohammed Siad Jibril, S M Asiful Islam Saky",
+      journal:
+        "Journal of Telecommunication, Electronic and Computer Engineering (JTEC)",
+      year: 2025,
+      // volume: ,
+      // issue: ,
+      // pages: "120-135",
+      publisher: "Penerbit Universiti Teknikal Malaysia, Melaka",
+      doi: "Paper Submitted",
+      abstract:
+        "Renewable energy forecasting is critical for managing the variability and intermittency of sources such as solar and wind, which are essential for transitioning to sustainable energy systems. Precise energy forecasts balance grid stability while improving energy distribution and decreasing power plant utilization. Our existing forecasting methods have known problems that limit their performance across diverse regions and current power networks. The research examines how machine learning technologies impact renewable energy development in the power industry. Supervised learning models such as ANNs and SVMs, are explored for their predictive capabilities. Both PCA and K-Means clustering are evaluated for their effectiveness in handling feature extraction and trend analysis. Our research studies how Deep Q-Networks (DQN) and other reinforcement learning systems optimize energy management. Research proves that machine learning systems boost how accurately they predict trends and make the overall power grid work better. However, system functions with high data requirements plus limited ways to scale remain major issues in this field. Our findings show that new algorithms and better data systems are necessary to support current energy systems in efficient power distribution. Our energy grid and long-term forecasting depend on filling these gaps as part of our drive toward sustainable power systems.",
+      link: "",
+      codeLink: "",
+    },
+
     // Conference
 
-    // {
-    //   title: "Machine Learning Approaches for Early Detection of Alzheimer's Disease",
-    //   authors: "S M Asiful Islam Saky, John Doe, Jane Smith",
-    //   conference: "International Conference on Artificial Intelligence in Healthcare",
-    //   year: 2023,
-    //   publisher: "IEEE",
-    //   doi: "10.1109/ICAIH.2023.1234567",
-    //   abstract: "This paper presents a novel approach using deep learning algorithms for the early detection of Alzheimer's disease based on neuroimaging data.",
-    //   link: "https://doi.org/10.1109/ICAIH.2023.1234567",
-    //   codeLink: "https://github.com/saky-semicolon/alzheimers-detection",
-    // },
+    {
+      title:
+        "Comparing ML Algorithms: A Comprehensive Evaluation of Intrusion, Anomaly, and DoS Attack Detection Systems",
+      authors:
+        "Basheer Riskhan, Malika Amiri, Habiba Arifa, Afrah Hamed Ali Noor Mohammed, S M Asiful Islam Saky and Nadiah Arsat",
+      conference:
+        " ICETAS-2024 (2024 9th International Conference on Engineering Technologies and Applied Sciences",
+      year: 2024,
+      publisher: "IEEE",
+      doi: "Accepted",
+      abstract:
+        "Cybersecurity serves an essential function in preserving sensitive data against continually evolving threats. The intention of the present study is to gauge how effectively machine learning (ML) algorithms work in the three primary domains of cyber defense: intrusion detection, anomaly detection, and denial-of-service (DoS) attack detection. A methodical assessment was conducted for assessing multiple machine learning techniques using metrics for success like accuracy, precision, recall, and F1-score. These outcomes highlight the usefulness of Random Forest and Decision Tree classifiers in recognizing cyberthreats, and suggest that Logistic Regression offers an effective option for anomaly identification. For additional cyber security measures, future research must focus on understanding of deep learning models and study a variety of datasets.",
+      link: "",
+      codeLink: "",
+    },
 
     // More publications...
   ],
@@ -1735,6 +1757,15 @@ const certifications = {
       logo_path: "kag.png",
       certificate_link:
         "https://www.kaggle.com/learn/certification/smasifulislamsaky/computer-vision",
+      alt_name: "Kaggle",
+      color_code: "#000000",
+    },
+    {
+      title: "Machine Learning Explainability",
+      subtitle: "Kaggle",
+      logo_path: "kag.png",
+      certificate_link:
+        "https://www.kaggle.com/learn/certification/smasifulislamsaky/machine-learning-explainability",
       alt_name: "Kaggle",
       color_code: "#000000",
     },

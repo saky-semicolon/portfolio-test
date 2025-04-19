@@ -1380,6 +1380,39 @@ const publicationData = {
       link: "",
       codeLink: "",
     },
+    {
+      title:
+        "A Low-cost Hand Recognition Based Smart Board Model (HRbSBM) for the Education System​",
+      authors: "Thiha Naing, S M Asiful Islam Saky, Md Amin Ullah Sheikh",
+      journal: "IIUM Engineering Journal",
+      // year: 2024,
+      // volume: ,
+      // issue: ,
+      // pages: "120-135",
+      publisher: "IIUM",
+      doi: "Paper Submitted",
+      abstract:
+        "In a well growing and fast-moving organization, presenting work should be smart and emphasized looking. Proposed Model HRbSBM will provide a cozy environment to the researchers, teachers, students, and industry persons for the presentation, and it will be beneficial for school level education system where the high-cost equipment is not affordable. This proposed model (HRbSBM) will also be beneficial for those teachers who cannot stand and cannot use the white board for explanation. By using their hand gesture, they can educate the students. During the presentation, changing the presentation, drawing something on the screen, and controlling the computer is no more headache with the help of the HRbSBM. It will be able to use a hand gesture to control its computer. In the conventional method, a wireless pen or remote is provided to the presenting person and that helps to change the presentation only, while with the help of the proposed model (HRbSBM ) no such gadgets are required to control it. This model not only helps during the presentation but also helps to control the computer for creating a presentation, creating graphs, and to write on screen as well. This HRbSBM will help school, college, and university students to learn in a better way and will aid teachers to present their work in a better way.",
+      link: "",
+      codeLink: "",
+    },
+    // {
+    //   title:
+    //     "Blockchain and Machine Learning in Talent Acquisition: A Systematic Review on Credential Verification and Recruitment Optimization.​",
+    //   authors: "S M Asiful Islam Saky, Yeasmin Akter, Farhana Akter, Jahidul Islam",
+    //   journal:
+    //     "",
+    //   year: 2025,
+    //   // volume: ,
+    //   // issue: ,
+    //   // pages: "120-135",
+    //   publisher: "Penerbit Universiti Teknikal Malaysia, Melaka",
+    //   doi: "Paper Submitted",
+    //   abstract:
+    //     "Renewable energy forecasting is critical for managing the variability and intermittency of sources such as solar and wind, which are essential for transitioning to sustainable energy systems. Precise energy forecasts balance grid stability while improving energy distribution and decreasing power plant utilization. Our existing forecasting methods have known problems that limit their performance across diverse regions and current power networks. The research examines how machine learning technologies impact renewable energy development in the power industry. Supervised learning models such as ANNs and SVMs, are explored for their predictive capabilities. Both PCA and K-Means clustering are evaluated for their effectiveness in handling feature extraction and trend analysis. Our research studies how Deep Q-Networks (DQN) and other reinforcement learning systems optimize energy management. Research proves that machine learning systems boost how accurately they predict trends and make the overall power grid work better. However, system functions with high data requirements plus limited ways to scale remain major issues in this field. Our findings show that new algorithms and better data systems are necessary to support current energy systems in efficient power distribution. Our energy grid and long-term forecasting depend on filling these gaps as part of our drive toward sustainable power systems.",
+    //   link: "",
+    //   codeLink: "",
+    // },
 
     // More publications...
   ],
@@ -1793,6 +1826,15 @@ const certifications = {
       logo_path: "els.png",
       certificate_link:
         "https://drive.google.com/file/d/1TNr78wMU6M2AC0etRVRwKNhl8vc-2noU/view?usp=sharing",
+      alt_name: "Elsevier",
+      color_code: "#000000",
+    },
+    {
+      title: "Research Data Management",
+      subtitle: "Elsevier",
+      logo_path: "els.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1zImsTtDmzt0_73bavz08ZTtg2EGrFUSC/view?usp=sharing",
       alt_name: "Elsevier",
       color_code: "#000000",
     },

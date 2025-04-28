@@ -1347,6 +1347,24 @@ const publicationData = {
 
     {
       title:
+        "Enhanced SegNet with Integrated Grad-CAM for Interpretable Retinal Layer Segmentation in OCT Images​",
+      authors: "S M Asiful Islam Saky, Ugyen Tshering",
+      journal: "INTELIGENCIA ARTIFICIAL",
+      year: 2025,
+      // volume: ,
+      // issue: ,
+      // pages: "120-135",
+      publisher:
+        "ASOC ESPANOLA INTELIGENCIA ARTIFICIAL , FAC INFORMATICA, UNIV POLITECNICA VALENCIA , VALENCIA, Spain, 00000",
+      doi: "Paper Submitted",
+      abstract:
+        "For the diagnosis and treatment of vision-threatening conditions such as glaucoma, diabetic retinopathy, and age-related macular degeneration, precise retinal layer segmentation in Optical Coherence Tomography (OCT) is essential. Despite their high technical accuracy, automated deep learning techniques frequently lack the interpretability needed for clinical trust. Meanwhile, manual segmentation remains time-consuming and inconsistent. The black-box nature of conventional models, pathological distortions, and image noise are major obstacles. An improved SegNet-based deep learning framework for automated, interpretable retinal layer segmentation is proposed in this work. Architectural innovations such as modified pooling strategies were integrated to enhance feature extraction from noisy OCT images. To address class imbalance and improve thin layer segmentation, a hybrid loss function that combines categorical Cross-Entropy and Dice Loss was developed. Crucially, Gradient-weighted Class Activation Mapping (Grad-CAM) was integrated into the pipeline to provide visual explanations of the model's decision-making process, enabling clinical validation. The model was trained and validated on the publicly available Duke OCT dataset. The proposed framework demonstrated high performance, achieving a validation accuracy of 95.77%, Dice Coefficient of 0.9446, and Jaccard Index (IoU) of 0.8951, indicating robust and accurate segmentation across diverse scans. Class-wise analysis confirmed strong performance for most layers, though challenges remained for thinner layers with complex boundaries. Grad-CAM visualizations successfully highlighted anatomically relevant regions influencing segmentation decisions, confirming the model's alignment with clinical biomarkers and enhancing transparency. Using an Explainable AI (XAI) technique (Grad-CAM), a customized loss function, and architectural improvements, this study offers a strong SegNet-based framework that significantly enhances automated retinal layer segmentation. The model bridges the gap between algorithmic performance and clinical utility by achieving high accuracy while maintaining crucial interpretability. This approach holds significant potential for standardizing OCT analysis, improving diagnostic efficiency, and fostering trust in AI-driven ophthalmic tools.",
+      link: "",
+      codeLink: "",
+    },
+
+    {
+      title:
         "Machine Learning in Renewable Energy Forecasting: A Review of Developments, Challenges and Future Prospects​",
       authors: "Abdullah Al Hadi, Mohammed Siad Jibril, S M Asiful Islam Saky",
       journal:

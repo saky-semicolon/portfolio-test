@@ -606,32 +606,6 @@ const projectcards = {
         "https://github.com/saky-semicolon/Cross-Lingual-Transfer-Learning-System",
       linkcolor: "white",
     },
-
-    {
-      title: "📊 SVM, Logistic Regression, k-NN, K-Means & PCA",
-      img_path: "ml.webp",
-      description:
-        "A comparative analysis of machine learning models, evaluating their performance on classification and clustering tasks.",
-      tags: [
-        {
-          lang: "📚 Scikit-Learn",
-          color: "#004782",
-        },
-        {
-          lang: "🔍 Data Preprocessing",
-          color: "#c47206",
-        },
-        {
-          lang: "📉 Dimensionality Reduction",
-          color: "#ff4b4b",
-        },
-      ],
-      link:
-        "https://github.com/saky-semicolon/SVM-Logistic-Regression-k-NN-K-Means-Clustering-and-PCA",
-      code:
-        "https://github.com/saky-semicolon/SVM-Logistic-Regression-k-NN-K-Means-Clustering-and-PCA",
-      linkcolor: "white",
-    },
     {
       title: "🚢 Titanic Survival Analysis using R",
       img_path: "titanic.png",
@@ -680,6 +654,31 @@ const projectcards = {
         "https://github.com/saky-semicolon/Students-Performance_A-Journey-in-Statistics-and-Probability_A-Memory-to-Treasure/blob/635de66fa120fb4f6a992e8c0d0cfe77b55a8cf6/Students%20Performance-%20Statistics%20Magazine.pdf",
       code:
         "https://github.com/saky-semicolon/Students-Performance_A-Journey-in-Statistics-and-Probability_A-Memory-to-Treasure",
+      linkcolor: "white",
+    },
+    {
+      title: "Stock Market Price Forecasting",
+      img_path: "stock price pred.png",
+      description:
+        "A time series forecasting project using SARIMAX and LSTM to predict future stock prices.",
+      tags: [
+        {
+          lang: "LSTM",
+          color: "#ff5722",
+        },
+        {
+          lang: "SARIMAX",
+          color: "#3f51b5",
+        },
+        {
+          lang: "Time Series",
+          color: "#009688",
+        },
+      ],
+      link:
+        "https://github.com/saky-semicolon/Stock-Market-Price-Forecasting-Using-Time-Series-Analysis", // Replace with actual deployed app URL
+      code:
+        "https://github.com/saky-semicolon/Stock-Market-Price-Forecasting-Using-Time-Series-Analysis",
       linkcolor: "white",
     },
   ],
@@ -895,6 +894,144 @@ const projectcards2 = {
 const projectcards3 = {
   list: [
     {
+      title: "Emotion-Aware AI Support System",
+      img_path: "emotion.png",
+      description:
+        "A smart AI-powered mental health support system that detects user emotions and provides personalized support.",
+      tags: [
+        {
+          lang: "Python",
+          color: "#004782",
+        },
+        {
+          lang: "Flask",
+          color: "#820032",
+        },
+        {
+          lang: "SQLite",
+          color: "#003B57",
+        },
+        {
+          lang: "HTML/CSS/JS",
+          color: "#e34c26",
+        },
+        {
+          lang: "ML",
+          color: "#00a100",
+        },
+      ],
+      link: "https://github.com/saky-semicolon/Emotion-Aware-AI-Support-System", // Replace with real deployment link if available
+      code: "https://github.com/your-username/Emotion-Aware-AI-Support-System", // Replace with real code link
+      linkcolor: "white",
+    },
+    {
+      title: "Bank Queue Simulation",
+      img_path: "bankkk(1).png",
+      description:
+        "Simulating real-world bank queue operations using Java for service optimization.",
+      tags: [
+        {
+          lang: "☕ Java",
+          color: "red",
+        },
+        {
+          lang: "🔄 Queue Simulation",
+          color: "red",
+        },
+        {
+          lang: "🏗 DSA",
+          color: "red",
+        },
+      ],
+      link: "https://github.com/saky-semicolon/Bank-Queue-Simulation",
+      code: "https://github.com/saky-semicolon/Bank-Queue-Simulation",
+      linkcolor: "white",
+    },
+    {
+      title: "AI-Powered Research Paper Summarizer",
+      img_path: "summarizer.png",
+      description:
+        "An NLP based tool that uses transformer models to summarize key sections of research papers.",
+      tags: [
+        {
+          lang: "PEGASUS",
+          color: "#9c27b0",
+        },
+        {
+          lang: "NLP",
+          color: "#00bfa5",
+        },
+        {
+          lang: "Docker",
+          color: "#0db7ed",
+        },
+        {
+          lang: "Streamlit",
+          color: "#ff4b4b",
+        },
+        {
+          lang: "CI/CD",
+          color: "#795548",
+        },
+      ],
+      link: "https://your-deployed-app-link.com", // Replace with actual deployed app URL
+      code: "https://github.com/yourusername/ai-research-paper-summarizer",
+      linkcolor: "white",
+    },
+  ],
+};
+
+// ProjectCards4
+
+const projectcards4 = {
+  list: [
+    {
+      title: "KD Academy-LMS",
+      img_path: "LMS.png",
+      description:
+        "A Learning Management System designed to enhance online education with course management, student tracking, and interactive learning experiences.",
+      tags: [
+        {
+          lang: "📚 LMS",
+          color: "#004782",
+        },
+        {
+          lang: "🗄️ Database Management",
+          color: "#303030",
+        },
+        {
+          lang: "🚀 Full-Stack Development",
+          color: "#051c61",
+        },
+      ],
+      link: "",
+      code: "",
+      linkcolor: "white",
+    },
+    {
+      title: "🌐 Personal Portfolio Website",
+      img_path: "portfolio.png",
+      description:
+        "A dynamic and interactive portfolio showcasing projects, research, blogs, and achievements with a sleek, responsive design and seamless user experience.",
+      tags: [
+        {
+          lang: "🎨 UI/UX Design",
+          color: "#004782",
+        },
+        {
+          lang: " ⚡ React.js",
+          color: "#c47206",
+        },
+        {
+          lang: "🌍 Responsive Design",
+          color: "#ff4b4b",
+        },
+      ],
+      link: "https://saky-semicolon.netlify.app/",
+      code: "https://saky-semicolon.netlify.app/",
+      linkcolor: "white",
+    },
+    {
       title: "🏥 Kedah Hospital Management System",
       img_path: "hmsss.png",
       description:
@@ -997,145 +1134,6 @@ const projectcards3 = {
       code: "https://github.com/saky-semicolon/Apps-and-Games",
       linkcolor: "white",
     },
-    {
-      title: "Bank Queue Simulation",
-      img_path: "bankkk(1).png",
-      description:
-        "Simulating real-world bank queue operations using Java for service optimization.",
-      tags: [
-        {
-          lang: "☕ Java",
-          color: "red",
-        },
-        {
-          lang: "🔄 Queue Simulation",
-          color: "red",
-        },
-        {
-          lang: "🏗 DSA",
-          color: "red",
-        },
-      ],
-      link: "https://github.com/saky-semicolon/Bank-Queue-Simulation",
-      code: "https://github.com/saky-semicolon/Bank-Queue-Simulation",
-      linkcolor: "white",
-    },
-
-    {
-      title: "KD Academy-LMS",
-      img_path: "LMS.png",
-      description:
-        "A Learning Management System designed to enhance online education with course management, student tracking, and interactive learning experiences.",
-      tags: [
-        {
-          lang: "📚 LMS",
-          color: "#004782",
-        },
-        {
-          lang: "🗄️ Database Management",
-          color: "#303030",
-        },
-        {
-          lang: "🚀 Full-Stack Development",
-          color: "#051c61",
-        },
-      ],
-      link: "",
-      code: "",
-      linkcolor: "white",
-    },
-    {
-      title: "🌐 Personal Portfolio Website",
-      img_path: "portfolio.png",
-      description:
-        "A dynamic and interactive portfolio showcasing projects, research, blogs, and achievements with a sleek, responsive design and seamless user experience.",
-      tags: [
-        {
-          lang: "🎨 UI/UX Design",
-          color: "#004782",
-        },
-        {
-          lang: " ⚡ React.js",
-          color: "#c47206",
-        },
-        {
-          lang: "🌍 Responsive Design",
-          color: "#ff4b4b",
-        },
-      ],
-      link: "https://saky-semicolon.netlify.app/",
-      code: "https://saky-semicolon.netlify.app/",
-      linkcolor: "white",
-    },
-  ],
-};
-
-// ProjectCards4
-
-const projectcards4 = {
-  list: [
-    // {
-    //   title: "🤖 Seeeee",
-    //   img_path: "ml-ai.png",
-    //   description:
-    //     "Developing intelligent models for data-driven decision-making, predictive analytics, and automation.",
-    //   tags: [
-    //     {
-    //       lang: "python",
-    //       color: "#004782",
-    //     },
-    //     {
-    //       lang: "TextBlob",
-    //       color: "#820032",
-    //     },
-    //     {
-    //       lang: "OpenCV",
-    //       color: "#00a100",
-    //     },
-    //     {
-    //       lang: "Streamlit",
-    //       color: "#ff4b4b",
-    //     },
-    //     {
-    //       lang: "Heroku",
-    //       color: "#3c0095",
-    //     },
-    //   ],
-    //   link: "https://teath.herokuapp.com ",
-    //   code: "https://github.com/rohankokkula/TEATH",
-    //   linkcolor: "white",
-    // },
-    // {
-    //   title: "Voice Gender Detection",
-    //   img_path: "voice.gif",
-    //   description:
-    //     "A streamlit webapp which detects user's gender and emotion based on realtime audio input.",
-    //   tags: [
-    //     {
-    //       lang: "ongoing",
-    //       color: "red",
-    //     },
-    //     {
-    //       lang: "python",
-    //       color: "#004782",
-    //     },
-    //     {
-    //       lang: "matplotlib",
-    //       color: "#c47206",
-    //     },
-    //     {
-    //       lang: "tensorflow",
-    //       color: "#4257f5",
-    //     },
-    //     {
-    //       lang: "Streamlit",
-    //       color: "#ff4b4b",
-    //     },
-    //   ],
-    //   link: "",
-    //   code: "",
-    //   linkcolor: "white",
-    // },
     // {
     //   title: "Deep Learning & Computer Vision",
     //   img_path: "neural.gif",
@@ -1356,11 +1354,11 @@ const publicationData = {
       // pages: "120-135",
       publisher:
         "ASOC ESPANOLA INTELIGENCIA ARTIFICIAL , FAC INFORMATICA, UNIV POLITECNICA VALENCIA , VALENCIA, Spain, 00000",
-      doi: "Paper Submitted",
+      doi: "Paper Submitted-Read the Technical Report",
       abstract:
         "For the diagnosis and treatment of vision-threatening conditions such as glaucoma, diabetic retinopathy, and age-related macular degeneration, precise retinal layer segmentation in Optical Coherence Tomography (OCT) is essential. Despite their high technical accuracy, automated deep learning techniques frequently lack the interpretability needed for clinical trust. Meanwhile, manual segmentation remains time-consuming and inconsistent. The black-box nature of conventional models, pathological distortions, and image noise are major obstacles. An improved SegNet-based deep learning framework for automated, interpretable retinal layer segmentation is proposed in this work. Architectural innovations such as modified pooling strategies were integrated to enhance feature extraction from noisy OCT images. To address class imbalance and improve thin layer segmentation, a hybrid loss function that combines categorical Cross-Entropy and Dice Loss was developed. Crucially, Gradient-weighted Class Activation Mapping (Grad-CAM) was integrated into the pipeline to provide visual explanations of the model's decision-making process, enabling clinical validation. The model was trained and validated on the publicly available Duke OCT dataset. The proposed framework demonstrated high performance, achieving a validation accuracy of 95.77%, Dice Coefficient of 0.9446, and Jaccard Index (IoU) of 0.8951, indicating robust and accurate segmentation across diverse scans. Class-wise analysis confirmed strong performance for most layers, though challenges remained for thinner layers with complex boundaries. Grad-CAM visualizations successfully highlighted anatomically relevant regions influencing segmentation decisions, confirming the model's alignment with clinical biomarkers and enhancing transparency. Using an Explainable AI (XAI) technique (Grad-CAM), a customized loss function, and architectural improvements, this study offers a strong SegNet-based framework that significantly enhances automated retinal layer segmentation. The model bridges the gap between algorithmic performance and clinical utility by achieving high accuracy while maintaining crucial interpretability. This approach holds significant potential for standardizing OCT analysis, improving diagnostic efficiency, and fostering trust in AI-driven ophthalmic tools.",
-      link: "",
-      codeLink: "",
+      link: "https://retina-seg.netlify.app/",
+      codeLink: "https://retina-seg.netlify.app/",
     },
 
     {

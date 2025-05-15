@@ -1379,6 +1379,42 @@ const publicationData = {
       codeLink: "",
     },
 
+    {
+      title:
+        "Explainable AI for Early Breast Cancer Diagnosis Using SHAP and Grad-CAM for Histopathological Image Analysis​",
+      authors:
+        "Md Serajun Nabi, Dema Yuden, S M Asiful Islam Saky, Thinley Yeshey Choden, Mohammad Faizal Ahmad Fauzi, Hezerul Bin Abdul Karim",
+      journal: "Not Yet Submitted",
+      year: 2025,
+      // volume: ,
+      // issue: ,
+      // pages: "120-135",
+      // publisher: "Penerbit Universiti Teknikal Malaysia, Melaka",
+      // doi: "Paper Submitted",
+      abstract:
+        "Accurate and interpretable HER2 IHC scoring is essential in the treatment of breast cancer, yet manual evaluation is inconsistent and subjective. This study proposes a two-deep learning model framework incorporating a custom Convolutional Neural Network (CNN) and a fine-tuned DenseNet121 model for automated HER2 scoring from histopathological whole slide images. Preprocessing involves HSV-based patch filtering and expert validation to ensure data relevance. To improve transparency and address the black-box nature of AI models, explainable AI (XAI) techniques such as Gradient-weighted Class Activation Mapping (Grad-CAM) and SHapley Additive exPlanations (SHAP) are employed to provide visual explanations at the pixel and region levels. These techniques offer interpretability, ensuring clinical confidence by clearly visualizing and attributing model decisions, particularly in borderline HER2 cases (Class 1+ and 2+), where manual misinterpretations often occur. The experimental results show that both CNN and DenseNet121 achieved 0.93% accuracy with excellent class-wise consistency, while CNN delivered better confidence calibration and lower loss. Integration of explainability modules ensures improved clinical transparency, particularly for borderline HER2 classes, enhancing decision-making trust in AI models. Comparison of the assessment with the existing literature confirms the strength of the proposed method in predictive capacity and interpretability, contributing to a robust AI-assisted breast cancer diagnosis.",
+      link: "",
+      codeLink: "",
+    },
+
+    {
+      title:
+        "Blockchain and Machine Learning in Talent Acquisition: A Review of Credential Verification and Recruitment Optimization",
+      authors:
+        "S M Asiful Islam Saky, Farhana Akter, Yeasmin Akter, Jahidul Islam",
+      journal: "Not Yet Submitted",
+      year: 2025,
+      // volume: ,
+      // issue: ,
+      // pages: "120-135",
+      // publisher: "Penerbit Universiti Teknikal Malaysia, Melaka",
+      // doi: "Paper Submitted",
+      abstract:
+        "The integration of emerging technologies such as Blockchain and Machine Learning (ML) has introduced new possibilities for enhancing transparency, efficiency, and fairness in talent acquisition. Traditional recruitment methods often suffer from issues such as credential fraud, unconscious bias, and lack of process standardization. Blockchain technology offers a decentralized and immutable system for secure credential verification, while ML provides predictive analytics and intelligent automation to optimize hiring decisions. This review paper systematically examines the application of Blockchain and ML in recruitment, focusing on their role in verifying credentials, streamlining workflows, and reducing bias. The study identifies key challenges such as interoperability, data privacy, and algorithmic fairness, and proposes a hybrid framework for their integration. It further outlines future research directions aimed at standardizing decentralized identity protocols, ensuring ethical AI practices, and developing privacy-preserving systems. The findings suggest that the convergence of Blockchain and ML has significant potential to reshape the future of human resource management and digital recruitment ecosystems.",
+      link: "",
+      codeLink: "",
+    },
+
     // Conference
 
     {
